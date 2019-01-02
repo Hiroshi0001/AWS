@@ -1,0 +1,57 @@
+/*
+ Theme Name:   Twenty Seventeen Child
+ Theme URI:    
+ Description:  Twenty Seventeen Child Theme
+ Author:       Ryo Ono
+ Author URI:   
+ Template:     twentyseventeen
+ Version:      0.1
+ License:      
+ License URI:  
+ Tags:         
+ Text Domain:  twenty-seven-child
+*/
+
+/* 登録ページ */
+.swpm-registration-membership-level-row, 
+/* プロフィールページ */
+.swpm-profile-street-row,
+.swpm-profile-city-row,
+.swpm-profile-state-row,
+.swpm-profile-zipcode-row,
+.swpm-profile-country-row,
+.swpm-registration-profile-level-row,
+
+.menu-item-536{
+	float:right;
+}
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+	left: 0.5em;
+	right: -1.8em;
+}
+
+/* カレンダーページ */
+.em-calendar {
+	font-size :14px;
+}
+.em-locations-list,
+.em-calendar li {
+
+	list-style-type:none;
+}
+.em-calendar td{
+	width:14%;
+}
+
+/* ページタイトル下の余白 */
+.page.page-one-column .entry-header, .twentyseventeen-front-page.page-one-column .entry-header, .archive.page-one-column:not(.has-sidebar) .page-header {
+    margin-bottom: 1em;
+}
+
+.site-title{
+	text-transform: none;
+}
+h1.e_title{
+    padding:0 0 0 0 ;
+}

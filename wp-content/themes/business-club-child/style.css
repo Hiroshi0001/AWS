@@ -1,0 +1,30 @@
+/*
+ Theme Name:   business-club Child
+ Theme URI:    
+ Description:  business-club Child Theme
+ Author:       Ryo Ono
+ Author URI:   
+ Template:     business-club
+ Version:      0.1
+ License:      
+ License URI:  
+ Tags:         
+ Text Domain:  business-club-child
+*/
+
+/* 登録ページ */
+.swpm-registration-membership-level-row, 
+/* プロフィールページ */
+.swpm-profile-street-row,
+.swpm-profile-city-row,
+.swpm-profile-state-row,
+.swpm-profile-zipcode-row,
+.swpm-profile-country-row,
+.swpm-registration-profile-level-row,
+/* 予約確認ページ */
+#dbem-bookings-table th:nth-child(3),
+#dbem-bookings-table td:nth-child(3)
+{
+	display: none;
+}
+

@@ -1,0 +1,437 @@
+# Translation of Themes - Rara Journal in Japanese
+# This file is distributed under the same license as the Themes - Rara Journal package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-04-05 00:45:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - Rara Journal\n"
+
+#. Description of the plugin/theme
+msgid "Rara Journal is a clean and elegant WordPress blog theme. It is perfect for food, storytelling, personal, travel, lifestyle blog, etc.  It is responsive and adopts to various screen sizes, ensuring that your content is perfectly displayed to the visitors using tablets and mobile devices. If you are looking for a clean and professional blog theme that compliments your visuals and also provides you ample space for text, Rara Journal is perfect for you. Along with the clean design the theme comes with advance featured Slider to highlight your posts."
+msgstr "Rara Journal は、クリーンでエレガントな WordPress ブログテーマです。グルメ、ストーリー、個人的な生活、旅行、ライフスタイルをテーマにしたブログにぴったりです。インタラクティブで、様々なスクリーンサイズに適応するため、タブレットやモバイルでも完璧に表示できます。見た目もよく、十分なスペースも確保された、クリーンでプロフェッショナルなブログテーマをお探しなら、Rara Journal がぴったりです。すっきりとしたデザインだけでなく、あなたの投稿を目立たせる特集スライダー機能が特徴です。"
+
+#. Theme Name of the plugin/theme
+msgid "Rara Journal"
+msgstr "Rara Journal"
+
+#: inc/extras.php:180
+msgid "<b class=\"fn\"><a href=\"<?php get_the_author(); ?>\">%s</a></b>"
+msgstr "<b class=\"fn\"><a href=\"<?php get_the_author(); ?>\">%s</a></b>"
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:50 template-parts/content.php:64
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "続きを読む %s <span class=\"meta-nav\">&rarr;</span>"
+
+#. translators: %s: Name of current post
+#: template-parts/content-page.php:43
+msgid "Edit %s"
+msgstr "%sの編集"
+
+#: template-parts/content-page.php:31 template-parts/content.php:73
+msgid "Pages:"
+msgstr "ページ:"
+
+#: template-parts/content-none.php:19
+msgid " 404: Page Not Found"
+msgstr " 404: ページが見つかりません"
+
+#: inc/widget-social-links.php:118
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/widget-social-links.php:65 inc/widget-social-links.php:123
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/widget-social-links.php:63
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: inc/widget-social-links.php:61 inc/widget-social-links.php:113
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/widget-social-links.php:59 inc/widget-social-links.php:108
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/widget-social-links.php:57 inc/widget-social-links.php:103
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/widget-social-links.php:55 inc/widget-social-links.php:98
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/widget-social-links.php:26
+msgid "A Social Links Widget"
+msgstr "ソーシャルリンクウィジェット"
+
+#: inc/widget-social-links.php:25
+msgid "RARA: Social Links"
+msgstr "RARA: ソーシャルリンク"
+
+#: inc/widget-recent-post.php:26
+msgid "A Recent Post Widget"
+msgstr "最新記事ウィジェット"
+
+#: inc/widget-recent-post.php:25
+msgid "RARA: Recent Post"
+msgstr "RARA: 最新記事"
+
+#: inc/widget-popular-post.php:125 inc/widget-recent-post.php:123
+msgid "Show Post Date"
+msgstr "投稿日を表示する"
+
+#: inc/widget-popular-post.php:114 inc/widget-recent-post.php:112
+msgid "Number of Posts"
+msgstr "投稿数"
+
+#: inc/widget-popular-post.php:109 inc/widget-recent-post.php:107
+#: inc/widget-social-links.php:93
+msgid "Title"
+msgstr "タイトル"
+
+#: inc/widget-popular-post.php:26
+msgid "A Popular Post Widget"
+msgstr "人気の投稿ウィジェット"
+
+#: inc/widget-popular-post.php:25
+msgid "RARA: Popular Post"
+msgstr "RARA: 人気の投稿"
+
+#: inc/widget-featured-post.php:116 inc/widget-popular-post.php:120
+#: inc/widget-recent-post.php:118
+msgid "Show Post Thumbnail"
+msgstr "投稿サムネイルを表示する"
+
+#: inc/widget-featured-post.php:110
+msgid "Read More Text"
+msgstr "「続きを読む」テキスト"
+
+#: inc/widget-featured-post.php:100
+msgid "Posts"
+msgstr "投稿"
+
+#: inc/widget-featured-post.php:95 inc/widget-featured-post.php:135
+msgid "Read More"
+msgstr "もっと読む"
+
+#: inc/widget-featured-post.php:83
+msgid "&mdash;Choose&mdash;"
+msgstr "&mdash;選択&mdash;"
+
+#: inc/widget-featured-post.php:26
+msgid "A Featured Post Widget"
+msgstr "特集記事ウィジェット"
+
+#: inc/widget-featured-post.php:25
+msgid "RARA: Featured Post"
+msgstr "RARA: 特集記事"
+
+#: inc/template-tags.php:64
+msgid "Edit"
+msgstr "編集"
+
+#: inc/template-tags.php:43
+msgid "% Comments"
+msgstr "% 件のコメント"
+
+#: inc/template-tags.php:43
+msgid "1 Comment"
+msgstr "1件のコメント"
+
+#: inc/template-tags.php:43
+msgid "Leave a comment"
+msgstr "コメントする"
+
+#: inc/metabox.php:42
+msgid "Choose Sidebar Template"
+msgstr "サイドバーテンプレートを選択"
+
+#: inc/metabox.php:30
+msgid "No Sidebar"
+msgstr "サイドバーなし"
+
+#: inc/metabox.php:25
+msgid "Right Sidebar(default)"
+msgstr "右サイドバー (デフォルト)"
+
+#: inc/metabox.php:13
+msgid "Sidebar Layout"
+msgstr "サイドバー・レイアウト"
+
+#: inc/extras.php:386
+msgid "Comment"
+msgstr "コメント"
+
+#: inc/extras.php:384
+msgid "POST COMMENT"
+msgstr "コメントを投稿"
+
+#: inc/extras.php:372
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: inc/extras.php:370
+msgid "Email*"
+msgstr "メール*"
+
+#: inc/extras.php:368
+msgid "Name*"
+msgstr "名前*"
+
+#: inc/extras.php:348
+msgid "https://wordpress.org/"
+msgstr "https://ja.wordpress.org/"
+
+#: inc/extras.php:348
+msgid "Powered by: %s"
+msgstr "Powered by: %s"
+
+#: inc/extras.php:347
+msgid "Rara Journal by: Rara Theme"
+msgstr "Rara Journal by: Rara Theme"
+
+#: inc/extras.php:345
+msgid "Copyright &copy; "
+msgstr "Copyright &copy; "
+
+#. translators: 1: date, 2: time
+#: inc/extras.php:190
+msgid "(Edit)"
+msgstr "(編集)"
+
+#: inc/extras.php:183
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは承認待ちの状態です。"
+
+#: inc/extras.php:122
+msgid "%s Results Found"
+msgstr "%s 結果が見つかりました"
+
+#: inc/extras.php:120
+msgid "Search Results"
+msgstr "検索結果"
+
+#: inc/extras.php:102
+msgid "Archive"
+msgstr "アーカイブ"
+
+#: inc/extras.php:93
+msgid "Author"
+msgstr "作成者"
+
+#: inc/extras.php:84
+msgid "Tag"
+msgstr "タグ"
+
+#: inc/extras.php:75
+msgid "Category"
+msgstr "カテゴリー"
+
+#: inc/customizer.php:436
+msgid "Posts Read More Button"
+msgstr "投稿をもっと読むボタン"
+
+#: inc/customizer.php:428 template-parts/content.php:9
+msgid "Continue Reading"
+msgstr "もっと読む"
+
+#: inc/customizer.php:419
+msgid "Post Settings"
+msgstr "投稿設定"
+
+#: inc/customizer.php:408
+msgid "Instagram Url"
+msgstr "Instagram URL"
+
+#: inc/customizer.php:390
+msgid "Pinterest Url"
+msgstr "Pinterest URL"
+
+#: inc/customizer.php:372
+msgid "Youtube Url"
+msgstr "Youtube URL"
+
+#: inc/customizer.php:354
+msgid "Google Plus Url"
+msgstr "Google+ URL"
+
+#: inc/customizer.php:336
+msgid "Rss Feed Url"
+msgstr "RSS フィード URL"
+
+#: inc/customizer.php:318
+msgid "Linkedin Page Url"
+msgstr "Linkedin ページ URL"
+
+#: inc/customizer.php:300
+msgid "Twitter Page Url"
+msgstr "Twitter ページ URL"
+
+#: inc/customizer.php:282
+msgid "Facebook Page Url"
+msgstr "Facebook ページURL"
+
+#: inc/customizer.php:264
+msgid "Enable Social Links"
+msgstr "ソーシャルリンクを有効にする"
+
+#: inc/customizer.php:246
+msgid "Leave blank if you do not want to show the social link."
+msgstr "ソーシャルリンクを表示したくない場合は、空欄にしてください。"
+
+#: inc/customizer.php:245
+msgid "Social Settings"
+msgstr "ソーシャル設定"
+
+#: inc/customizer.php:233
+msgid "Choose Slider Category"
+msgstr "スライダー・カテゴリーを選択"
+
+#: inc/customizer.php:215
+msgid "Animation Speed"
+msgstr "アニメーション速度"
+
+#: inc/customizer.php:197
+msgid "Slider Speed"
+msgstr "スライダー速度"
+
+#: inc/customizer.php:180
+msgid "Slide"
+msgstr "スライド"
+
+#: inc/customizer.php:179
+msgid "Fade"
+msgstr "フェード"
+
+#: inc/customizer.php:175
+msgid "Choose Slider Animation"
+msgstr "スライダー・アニメーションを選択"
+
+#: inc/customizer.php:157
+msgid "Enable Slider Caption"
+msgstr "スライダー・キャプションを有効にする"
+
+#: inc/customizer.php:139
+msgid "Enable Slider Pager"
+msgstr "スライダーのページ送りを有効にする"
+
+#: inc/customizer.php:121
+msgid "Enable Slider Loop"
+msgstr "スライダー・ループを有効にする"
+
+#: inc/customizer.php:103
+msgid "Enable Slider Auto Transition"
+msgstr "スライダーの自動移行を有効にする"
+
+#: inc/customizer.php:85
+msgid "Enable Home Page Slider"
+msgstr "ホームページ・スライダーを有効にする"
+
+#: inc/customizer.php:67
+msgid "Slider Settings"
+msgstr "スライダー設定"
+
+#: inc/customizer.php:47
+msgid "Default section provided by WordPress customizer."
+msgstr "WordPress カスタマイザ－が提供する既定セクション。"
+
+#: inc/customizer.php:46
+msgid "Default Settings"
+msgstr "デフォルト設定"
+
+#: inc/customizer.php:34
+msgid "Choose Category"
+msgstr "カテゴリーを選択"
+
+#: inc/customizer.php:18
+msgid "Choose Post"
+msgstr "投稿を選択"
+
+#: functions.php:185
+msgid "Footer Four"
+msgstr "フッター4"
+
+#: functions.php:175
+msgid "Footer Three"
+msgstr "フッター 3"
+
+#: functions.php:165
+msgid "Footer Two"
+msgstr "フッター 2"
+
+#: functions.php:155
+msgid "Footer One"
+msgstr "フッター 1"
+
+#: functions.php:145
+msgid "Right Sidebar"
+msgstr "右サイドバー"
+
+#: functions.php:49
+msgid "Secondary"
+msgstr "セカンダリー"
+
+#: functions.php:48
+msgid "Primary"
+msgstr "メイン"
+
+#: comments.php:58
+msgid "Comments are closed."
+msgstr "コメントは停止中です。"
+
+#: comments.php:45
+msgid "Newer Comments"
+msgstr "新しいコメント"
+
+#: comments.php:44
+msgid "Older Comments"
+msgstr "過去のコメント"
+
+#: comments.php:41
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
+
+#: comments.php:26
+msgid "Comments"
+msgstr "コメント"
+
+#: 404.php:32 template-parts/content-none.php:32
+msgid "Home"
+msgstr "ホーム"
+
+#: 404.php:32 template-parts/content-none.php:32
+msgid "The page you were looking for cannot be found, it may have been moved or no longer exists. The search below may help you find the desired page, or you can navigate back to the homepage by clicking&nbsp;"
+msgstr "お探しのページは見つかりません。移動したか、存在しない可能性があります。下記の検索機能を使用すれば、ご希望のページが見つかるかもしれません。または、クリックしてホームページへお戻りください。"
+
+#: 404.php:28 template-parts/content-none.php:29
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "ご指定の検索条件に一致する投稿がありませんでした。他のキーワードでもう一度検索してみてください。"
+
+#: 404.php:25 template-parts/content-none.php:26
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "最初の投稿を公開する準備はできましたか ? <a href=\"%1$s\">ここから始めましょう</a>。"
+
+#: 404.php:20
+msgid "404: Page Not Found"
+msgstr "404: ページが見つかりません"
+
+#. Author URI of the plugin/theme
+msgid "http://raratheme.com/"
+msgstr "http://raratheme.com/"
+
+#. Author of the plugin/theme
+msgid "Rara Theme"
+msgstr "Rara Theme"
+
+#. Theme URI of the plugin/theme
+msgid "http://raratheme.com/wordpress-themes/rara-journal/"
+msgstr "http://raratheme.com/wordpress-themes/rara-journal/"

@@ -1,0 +1,308 @@
+# Translation of Themes - Aqueduct in Japanese
+# This file is distributed under the same license as the Themes - Aqueduct package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-02-07 08:57:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - Aqueduct\n"
+
+#. Theme Name of the plugin/theme
+msgid "Aqueduct"
+msgstr "Aqueduct"
+
+#: inc/dragfun/dragthemesfunction.php:254
+msgid "Choose style for header"
+msgstr "ヘッダーのスタイルを選択"
+
+#: inc/dragfun/dragthemesfunction.php:253
+msgid "Header"
+msgstr "ヘッダー"
+
+#: inc/dragfun/dragthemesfunction.php:169
+msgid "Reset"
+msgstr "リセット"
+
+#: inc/dragfun/dragthemesfunction.php:163
+msgid "Add Category Box"
+msgstr "カテゴリーボックスの追加"
+
+#: inc/dragfun/dragthemesfunction.php:142
+#: inc/dragfun/dragthemesfunction.php:167
+msgid "Blog Style"
+msgstr "ブログスタイル"
+
+#: inc/dragfun/dragthemesfunction.php:139
+#: inc/dragfun/dragthemesfunction.php:166
+msgid "Grid 2"
+msgstr "グリッド2"
+
+#: inc/dragfun/dragthemesfunction.php:136
+#: inc/dragfun/dragthemesfunction.php:165
+msgid "Grid 1"
+msgstr "グリッド1"
+
+#: inc/dragfun/dragthemesfunction.php:133
+msgid "Carousel"
+msgstr "カルーセル"
+
+#: inc/dragfun/dragthemesfunction.php:130
+msgid "Slider"
+msgstr "スライダー"
+
+#: inc/dragfun/dragthemesfunction.php:371
+msgid "News Boxes - use Home Builder"
+msgstr "ニュースボックス - Home Builder を使用"
+
+#: inc/dragfun/dragthemesfunction.php:370
+msgid "Latest posts - Blog Layout"
+msgstr "最新の記事 - ブログレイアウト"
+
+#. Template Name of the plugin/theme
+msgid "Full Width"
+msgstr "全幅"
+
+#. Template Name of the plugin/theme
+msgid "Blog"
+msgstr "ブログ"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "検索結果: %s"
+
+#: inc/template-tags.php:62
+msgid "% Comments"
+msgstr "%件のコメント"
+
+#: inc/template-tags.php:62
+msgid "1 Comment"
+msgstr "1件のコメント"
+
+#: inc/template-tags.php:62
+msgid "Leave a comment"
+msgstr "コメントする"
+
+#: inc/template-tags.php:56
+msgid " Tagged %1$s"
+msgstr "タグ: %1$s"
+
+#: inc/template-tags.php:50
+msgid " Category %1$s"
+msgstr "カテゴリー %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:48 inc/template-tags.php:54
+msgid " "
+msgstr " "
+
+#: inc/template-tags.php:31
+msgctxt "post date"
+msgid "<i class=\"fa fa-calendar-o\"></i> %s"
+msgstr "<i class=\"fa fa-calendar-o\"></i> %s"
+
+#: inc/dragfun/dragthemesfunction.php:731
+msgid "RSS"
+msgstr "RSS"
+
+#: inc/dragfun/dragthemesfunction.php:718
+msgid "Youtube"
+msgstr "Youtube"
+
+#: inc/dragfun/dragthemesfunction.php:705
+msgid "Linkedin"
+msgstr "LinkedIn"
+
+#: inc/dragfun/dragthemesfunction.php:692
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/dragfun/dragthemesfunction.php:679
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/dragfun/dragthemesfunction.php:666
+msgid "Google+"
+msgstr "Google+"
+
+#: inc/dragfun/dragthemesfunction.php:653
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/dragfun/dragthemesfunction.php:639
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/dragfun/dragthemesfunction.php:626
+msgid "Add URLs"
+msgstr "URL を追加"
+
+#: inc/dragfun/dragthemesfunction.php:597
+msgid "Font size"
+msgstr "フォントサイズ"
+
+#: inc/dragfun/dragthemesfunction.php:574
+msgid "Font Color"
+msgstr "文字色"
+
+#: inc/dragfun/dragthemesfunction.php:558
+msgid "Font color"
+msgstr "文字色"
+
+#: inc/dragfun/dragthemesfunction.php:494
+msgid "Choose Font"
+msgstr "フォントを選択"
+
+#: inc/dragfun/dragthemesfunction.php:490
+msgid "Typography"
+msgstr "文字装飾"
+
+#: inc/dragfun/dragthemesfunction.php:480
+msgid "Link Hover Color"
+msgstr "リンクホバーカラー"
+
+#: inc/dragfun/dragthemesfunction.php:444
+#: inc/dragfun/dragthemesfunction.php:462
+msgid "Link Color"
+msgstr "リンク色"
+
+#: inc/dragfun/dragthemesfunction.php:436
+msgid "Choose Color"
+msgstr "色を選択"
+
+#: inc/dragfun/dragthemesfunction.php:419
+msgid "Theme Color"
+msgstr "テーマ色"
+
+#: inc/dragfun/dragthemesfunction.php:378
+msgid "News Boxes"
+msgstr "ニュースボックス"
+
+#: inc/dragfun/dragthemesfunction.php:367
+msgid "Home Page Display"
+msgstr "ホームページ表示"
+
+#: inc/dragfun/dragthemesfunction.php:349
+msgid "Front Page"
+msgstr "フロントページ"
+
+#: inc/dragfun/dragthemesfunction.php:342
+msgid "Home Page Setting"
+msgstr "ホームページ設定"
+
+#: inc/dragfun/dragthemesfunction.php:326
+msgid "It will work only if theme layout is Boxed"
+msgstr "テーマレイアウトがボックス化されている場合にのみ機能します"
+
+#: inc/dragfun/dragthemesfunction.php:324
+msgid "Background Image"
+msgstr "背景画像"
+
+#: inc/dragfun/dragthemesfunction.php:313
+msgid "Theme Layout"
+msgstr "テーマレイアウト"
+
+#: inc/dragfun/dragthemesfunction.php:295
+msgid "Choose layout"
+msgstr "レイアウトを選択"
+
+#: inc/dragfun/dragthemesfunction.php:288
+msgid "Styling"
+msgstr "スタイル"
+
+#: inc/dragfun/dragthemesfunction.php:37
+msgid "Back To Top"
+msgstr "ページトップへ戻る"
+
+#: inc/dragfun/dragthemesfunction.php:34
+msgid "Designed By"
+msgstr "Designed By"
+
+#: functions.php:92
+msgid "Footer"
+msgstr "フッター"
+
+#: functions.php:79
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: functions.php:48
+msgid "Secondary Menu"
+msgstr "第2メニュー"
+
+#: functions.php:47
+msgid "Primary Menu"
+msgstr "メインメニュー"
+
+#: content.php:67
+msgid "Read More"
+msgstr "もっと見る"
+
+#: content-page.php:25
+msgid "Edit"
+msgstr "編集"
+
+#: content-page.php:18 content-single.php:19
+msgid "Pages:"
+msgstr "ページ:"
+
+#: content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+
+#: content-none.php:22
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "ご指定の検索条件に一致する投稿がありませんでした。他のキーワードでもう一度検索してみてください。"
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "最初の投稿をする準備ができましたか ?  <a href=\"%1$s\">ここからスタート</a>してください。"
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "見つかりません"
+
+#: comments.php:73
+msgid "Comments are closed."
+msgstr "コメントは停止中です。"
+
+#: comments.php:39 comments.php:61
+msgid "Newer Comments"
+msgstr "新しいコメント"
+
+#: comments.php:38 comments.php:60
+msgid "Older Comments"
+msgstr "過去のコメント"
+
+#: comments.php:35 comments.php:57
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "「%2$s」への%1$s件のフィードバック"
+
+#: 404.php:16
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "ここにはなにもないようです。下記のリンクまたは検索を試してみてください。"
+
+#: 404.php:12
+msgid "Page not Found"
+msgstr "ページが見つかりません"
+
+#. Author URI of the plugin/theme
+msgid "http://www.howlthemes.com"
+msgstr "http://www.howlthemes.com"
+
+#. Author of the plugin/theme
+msgid "HowlThemes"
+msgstr "HowlThemes"
+
+#. Theme URI of the plugin/theme
+msgid "http://www.howlthemes.com/aqueduct-free-magazine-wordpress-theme/"
+msgstr "http://www.howlthemes.com/aqueduct-free-magazine-wordpress-theme/"

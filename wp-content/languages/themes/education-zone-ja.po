@@ -1,0 +1,695 @@
+# Translation of Themes - Education Zone in Japanese
+# This file is distributed under the same license as the Themes - Education Zone package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-05-07 00:32:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - Education Zone\n"
+
+#. Description of the plugin/theme
+msgid "Education Zone is a free clean, beautiful and professional looking WordPress Theme specially designed for Education Institutions. This theme is best suited for college, school, university,  LMS, Training Center,  Academy, Primary School, High school and Kindergarten and other educational websites. The theme is very flexible and versatile can be used to build various types of business and corporate websites. The theme is highly customizable with various features and personalization options. Education Zone comes with several features to make a user-friendly, interactive and visually stunning website. Such features include custom menu, attractive banner, Stat counter, Courses section, testimonial section, Banner with Call to Action Button (CTA), and social media. The theme is SEO friendly with optimized codes, which make it easy for your site to rank on Google and other search engines. The theme is rigorously tested and optimized for speed and faster page load time and has a secure and clean code. The theme is also translation ready. Designed with visitor engagement in mind, Education Zone helps you to easily and intuitively create professional and appealing websites. If your school, college or university needs an online home that is dynamic and multi-functional, this theme is a good place to start. Check the demo at http://raratheme.com/preview/education-zone/, documentation at http://raratheme.com/documentation/education-zone/, and get support at http://raratheme.com/support-ticket/."
+msgstr ""
+"Education Zoneは、教育機関用にデザインされた、クリーンで美しく、プロな外観が特徴の WordPress テーマです。このテーマは、短期大学、学校、大学、LMS、研修所、アカデミー、小学校、高校、幼稚園、その他の教育機関のウェブサイトにぴったり。フレキシブルで多目的なテーマは、様々なタイプのビジネスや企業のウェブサイトに適しています。簡単にカスタマイズ可能で、様々な特徴やカスタマイズ・オプションが付いています。Education Zone には、ユーザーフレンドリーで、インタラクティブかつ見た目も美しいウェブサイトを作成するための機能が揃っています。中でも、カスタムメニュー、目を惹くバナー、統計カウンター、コース・セクション、お客様の声セクション、コール・トゥー・アクション（CTA）ボタン付きのバナー、ソーシャルメディア等が特徴です。このテーマでは、検索エンジン最適化（SEO）機能を使用しているため、Google のランキングで上位にランク付けされやすいのも特徴です。ページの読み込みを最適化し、安全でシンプルなコードを使用するため、何度も試験を繰り返してできたテーマには、トランスレーション・レディ機能も搭載。一度サイトを訪れた人の印象に残る、Education Zone は、プロフェッショナルかつ美しいウェブサイトの作成にとっても便利。ダイナミックで多機能なウェブサイトが必要な学校、短期大学、大学事業を、このテーマで始めてみませんか。デモはこちら https://raratheme.com/preview/education-zone/ \n"
+"資料をこちらからご覧ください  https://raratheme.com/documentation/education-zone/\n"
+"サポート依頼はこちら  https://raratheme.com/support-ticket/"
+
+#. Theme Name of the plugin/theme
+msgid "Education Zone"
+msgstr "Education Zone"
+
+#: inc/woocommerce-functions.php:39
+msgid "Sidebar displaying only in woocommerce pages."
+msgstr "WooCommerce ページ内でのみサイドバーが表示されています。"
+
+#: inc/woocommerce-functions.php:37
+msgid "Shop Sidebar"
+msgstr "ショップサイドバー"
+
+#: footer.php:45
+msgid " by Rara Theme. Powered by %s"
+msgstr " by Rara Theme. Powered by %s"
+
+#: footer.php:45
+msgid "Education Zone "
+msgstr "Education Zone "
+
+#: footer.php:44
+msgid " Y "
+msgstr " Y "
+
+#. Template Name of the plugin/theme
+msgid "Home Page"
+msgstr "ホームページ"
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:42 template-parts/content.php:56
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "続きを読む %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: template-parts/content-page.php:27 template-parts/content.php:47
+#: template-parts/content.php:61
+msgid "Pages:"
+msgstr "ページ:"
+
+#: template-parts/content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+
+#: template-parts/content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "ご指定の検索条件に一致する投稿がありませんでした。他のキーワードでもう一度検索してみてください。"
+
+#: template-parts/content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "最初の投稿を公開する準備はできましたか ? <a href=\"%1$s\">ここから始めましょう</a>。"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "見つかりません"
+
+#: sections/section-blog.php:60 sections/section-courses.php:52
+msgid "Learn More"
+msgstr "もっと知る"
+
+#: sections/section-blog.php:51
+msgid "g:i A"
+msgstr "g:i A"
+
+#: sections/section-blog.php:50 sections/section-blog.php:96
+msgid "j M, Y"
+msgstr "j M, Y"
+
+#: inc/widget-social-links.php:71
+msgid "You can change the social links from the customizer in Social Settings options."
+msgstr "ソーシャル設定オプション内のカスタマイザーから、ソーシャルリンクを変更できます。"
+
+#: inc/widget-social-links.php:26
+msgid "A Social Links Widget"
+msgstr "ソーシャルリンクウィジェット"
+
+#: inc/widget-social-links.php:25
+msgid "RARA: Social Links"
+msgstr "RARA: ソーシャルリンク"
+
+#: inc/widget-recent-post.php:26
+msgid "A Recent Post Widget"
+msgstr "最新記事ウィジェット"
+
+#: inc/widget-recent-post.php:25
+msgid "RARA: Recent Post"
+msgstr "RARA: 最新記事"
+
+#: inc/widget-popular-post.php:126 inc/widget-recent-post.php:125
+msgid "Show Post Date"
+msgstr "投稿日を表示する"
+
+#: inc/widget-popular-post.php:121 inc/widget-recent-post.php:120
+msgid "Show Post Thumbnail"
+msgstr "投稿サムネイルを表示する"
+
+#: inc/widget-popular-post.php:115 inc/widget-recent-post.php:114
+msgid "Number of Posts"
+msgstr "投稿数"
+
+#: inc/widget-popular-post.php:110 inc/widget-recent-post.php:109
+#: inc/widget-social-links.php:66
+msgid "Title"
+msgstr "タイトル"
+
+#: inc/widget-popular-post.php:76 inc/widget-recent-post.php:75
+msgid "F jS, Y"
+msgstr "Y年n月j日"
+
+#: inc/widget-popular-post.php:75 inc/widget-recent-post.php:74
+msgid "Y-m-d"
+msgstr "Y-m-d"
+
+#: inc/widget-popular-post.php:26
+msgid "A Popular Post Widget"
+msgstr "人気の投稿ウィジェット"
+
+#: inc/widget-popular-post.php:25
+msgid "RARA: Popular Post"
+msgstr "RARA: 人気の投稿"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:63 template-parts/content-page.php:38
+msgid "Edit %s"
+msgstr "%sの編集"
+
+#: inc/template-tags.php:50
+msgid "Tagged %1$s"
+msgstr "タグ: %1$s"
+
+#: inc/template-tags.php:44
+msgid "Posted in %1$s"
+msgstr "カテゴリー: %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:42 inc/template-tags.php:48
+msgid ", "
+msgstr "・"
+
+#: inc/template-tags.php:28 inc/template-tags.php:56
+msgid "% Comments"
+msgstr "%件のコメント"
+
+#: inc/template-tags.php:28 inc/template-tags.php:56
+msgid "1 Comment"
+msgstr "1件のコメント"
+
+#: inc/template-tags.php:28 inc/template-tags.php:56
+msgid "Leave a comment"
+msgstr "コメントを残す"
+
+#: inc/metabox.php:40
+msgid "Choose Sidebar Template"
+msgstr "サイドバーテンプレートを選択"
+
+#: inc/metabox.php:28
+msgid "No sidebar"
+msgstr "サイドバーなし"
+
+#: inc/metabox.php:23
+msgid "Right sidebar (default)"
+msgstr "右サイドバー (デフォルト)"
+
+#: inc/metabox.php:13
+msgid "Sidebar Layout"
+msgstr "サイドバーのレイアウト"
+
+#: inc/info.php:91
+msgid "VIEW PRO THEME"
+msgstr "プロ版テーマを表示"
+
+#: inc/info.php:89
+msgid "Pro Available"
+msgstr "プロバージョン利用可能"
+
+#: inc/extras.php:470
+msgid "Comment"
+msgstr "コメント"
+
+#: inc/extras.php:452
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: inc/extras.php:450
+msgid "Email*"
+msgstr "メール*"
+
+#: inc/extras.php:448
+msgid "Name*"
+msgstr "名前*"
+
+#: inc/extras.php:331
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/extras.php:288
+msgid "(Edit)"
+msgstr "(編集)"
+
+#: inc/extras.php:281
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは承認待ちの状態です。"
+
+#: inc/extras.php:278
+msgid "<b class=\"fn\">%s</b>"
+msgstr "<b class=\"fn\">%s</b>"
+
+#: inc/extras.php:178
+msgid "Page %s"
+msgstr "ページ %s"
+
+#: inc/extras.php:133
+msgid "d"
+msgstr "d"
+
+#: inc/extras.php:132 inc/extras.php:137
+msgid "F"
+msgstr "F"
+
+#: inc/extras.php:132
+msgid "m"
+msgstr "m"
+
+#: inc/extras.php:128
+msgid "\""
+msgstr "\""
+
+#: inc/extras.php:128
+msgid "Search Results for \""
+msgstr "検索結果: \""
+
+#: inc/extras.php:83 inc/extras.php:220
+msgid "404 Error - Page not Found"
+msgstr "404エラー - ページが見つかりません"
+
+#: inc/extras.php:69
+msgid "%1$s Result for \"%2$s\""
+msgstr "%1$s  \"%2$s\" の結果"
+
+#: inc/customizer.php:1340 inc/extras.php:323
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/customizer.php:1322 inc/extras.php:325
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/customizer.php:1304 inc/extras.php:329
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/customizer.php:1286 inc/extras.php:327
+msgid "Google Plus"
+msgstr "Google+"
+
+#: inc/customizer.php:1268
+msgid "Youtube"
+msgstr "Youtube"
+
+#: inc/customizer.php:1250 inc/extras.php:321
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer.php:1232 inc/extras.php:319
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer.php:1214
+msgid "Enable Social Links"
+msgstr "ソーシャルリンクを有効にする"
+
+#: inc/customizer.php:1196
+msgid "Leave blank if you do not want to show the social link."
+msgstr "ソーシャルリンクを表示したくない場合は、空欄にしてください。"
+
+#: inc/customizer.php:1195
+msgid "Social Settings"
+msgstr "ソーシャル設定"
+
+#: inc/customizer.php:1184
+msgid "Breadcrumb Separator"
+msgstr "パンくずリスト・セパレーター"
+
+#: inc/customizer.php:1176 inc/extras.php:104
+msgid ">"
+msgstr ">"
+
+#: inc/customizer.php:1166
+msgid "Breadcrumb Home Text"
+msgstr "パンくずリスト・ホームテキスト"
+
+#: inc/customizer.php:1158 inc/extras.php:105
+msgid "Home"
+msgstr "ホーム"
+
+#: inc/customizer.php:1148
+msgid "Show current"
+msgstr "現在表示"
+
+#: inc/customizer.php:1130
+msgid "Enable Breadcrumb"
+msgstr "パンくずリストを有効にする"
+
+#: inc/customizer.php:1111
+msgid "Breadcrumb Settings"
+msgstr "パンくずリスト設定"
+
+#: inc/customizer.php:1101
+msgid "Search Info"
+msgstr "検索情報"
+
+#: inc/customizer.php:1093 sections/section-search.php:7
+msgid "Can we help you find what you are looking for?"
+msgstr "お探しのものを探すお手伝いをいたしましょうか？"
+
+#: inc/customizer.php:1083
+msgid "Enable Search Section"
+msgstr "検索セクションを有効にする"
+
+#: inc/customizer.php:1064
+msgid "Search Section"
+msgstr "検索セクション"
+
+#: inc/customizer.php:1053
+msgid "Select gallery Post"
+msgstr "ギャラリー投稿を選択"
+
+#: inc/customizer.php:1035
+msgid "Enable Gallery Section"
+msgstr "ギャラリー・セクションを有効にする"
+
+#: inc/customizer.php:1016
+msgid "Gallery Section"
+msgstr "ギャラリー・セクション"
+
+#: inc/customizer.php:1005
+msgid "Blog Section Read More Text"
+msgstr "ブログ・セクション もっと読むテキスト"
+
+#: inc/customizer.php:968
+msgid "Show Blog Date"
+msgstr "ブログの日付を表示"
+
+#: inc/customizer.php:950
+msgid "Enable Blog Section"
+msgstr "ブログ・セクションを有効にする"
+
+#: inc/customizer.php:931
+msgid "Blog Section"
+msgstr "ブログ・セクション"
+
+#: inc/customizer.php:921
+msgid "Choose Testimonials Category"
+msgstr "お客様の声カテゴリーを選択"
+
+#: inc/customizer.php:887
+msgid "Enable Testimonials Section"
+msgstr "お客様の声セクションを有効にする"
+
+#: inc/customizer.php:868
+msgid "Testimonials  Section"
+msgstr "お客様の声セクション"
+
+#: inc/customizer.php:857
+msgid "Choose Fourth Post"
+msgstr "第4投稿を選択"
+
+#: inc/customizer.php:840
+msgid "Choose Third Post"
+msgstr "第3投稿を選択"
+
+#: inc/customizer.php:823
+msgid "Choose Second Post"
+msgstr "第2投稿を選択"
+
+#: inc/customizer.php:806
+msgid "Choose First Post"
+msgstr "第1投稿を選択"
+
+#: inc/customizer.php:768
+msgid "Enable Why Choose Us Section"
+msgstr "当校が選ばれる理由セクションを有効にする"
+
+#: inc/customizer.php:749
+msgid "Why Choose Us Section"
+msgstr "当校が選ばれる理由セクション"
+
+#: inc/customizer.php:740
+msgid "CTA Second Button Link"
+msgstr "CTAセカンドボタン・リンク"
+
+#: inc/customizer.php:725
+msgid "CTA Second Button"
+msgstr "CTAセカンドボタン"
+
+#: inc/customizer.php:708
+msgid "CTA First Button Link"
+msgstr "CTA 1番目のボタンリンク"
+
+#: inc/customizer.php:691
+msgid "CTA First Button"
+msgstr "CTA 1番目のボタン"
+
+#: inc/customizer.php:653
+msgid "Enable Extra Info Section"
+msgstr "追加情報セクションを有効にする"
+
+#: inc/customizer.php:634
+msgid "Extra Info Section"
+msgstr "追加情報セクション"
+
+#: inc/customizer.php:623
+msgid "Featured Course Post Fourth"
+msgstr "特集コース投稿4番目"
+
+#: inc/customizer.php:606
+msgid "Featured Course Post Third"
+msgstr "特集コース投稿第3"
+
+#: inc/customizer.php:589
+msgid "Featured Course Post Second"
+msgstr "特集コース投稿第2"
+
+#: inc/customizer.php:572
+msgid "Featured Course Post First"
+msgstr "特集コース投稿第1"
+
+#: inc/customizer.php:534
+msgid "Enable Featured Courses Section"
+msgstr "特集コース・セクションを有効にする"
+
+#: inc/customizer.php:515
+msgid "Featured Courses Section"
+msgstr "特集コース・セクション"
+
+#: inc/customizer.php:504
+msgid "Fourth Stat Counter Title"
+msgstr "第4統計カウンター・タイトル"
+
+#: inc/customizer.php:486
+msgid "Fourth Stat Counter Number"
+msgstr "第4統計カウンター番号"
+
+#: inc/customizer.php:468
+msgid "Third Stat Counter Title"
+msgstr "第3統計カウンター・タイトル"
+
+#: inc/customizer.php:450
+msgid "Third Stat Counter Number"
+msgstr "第3統計カウンター番号"
+
+#: inc/customizer.php:432
+msgid "Second Stat Counter Title"
+msgstr "第2統計カウンター・タイトル"
+
+#: inc/customizer.php:414
+msgid "Second Stat Counter Number"
+msgstr "第2統計カウンター番号"
+
+#: inc/customizer.php:396
+msgid "First Stat Counter Title"
+msgstr "第1統計カウンター・タイトル"
+
+#: inc/customizer.php:378
+msgid "First Stat Counter Number"
+msgstr "第1統計カウンター番号"
+
+#: inc/customizer.php:358 inc/customizer.php:552 inc/customizer.php:671
+#: inc/customizer.php:786 inc/customizer.php:903 inc/customizer.php:986
+msgid "Select Page"
+msgstr "ページを選択"
+
+#: inc/customizer.php:340
+msgid "Enable Welcome Section"
+msgstr "ウェルカム・セクションを有効にする"
+
+#: inc/customizer.php:321
+msgid "Welcome Section"
+msgstr "ウェルカム・セクション"
+
+#: inc/customizer.php:310
+msgid "Info Fourth Post"
+msgstr "情報第4投稿"
+
+#: inc/customizer.php:290
+msgid "Info Third Post"
+msgstr "情報第3投稿"
+
+#: inc/customizer.php:270
+msgid "Info Second Post"
+msgstr "情報第2投稿"
+
+#: inc/customizer.php:250
+msgid "Info One Post"
+msgstr "情報第1投稿"
+
+#: inc/customizer.php:232
+msgid "Enable Information Section"
+msgstr "情報セクションを有効にする"
+
+#: inc/customizer.php:214
+msgid "Information Section"
+msgstr "情報セクション"
+
+#: inc/customizer.php:205
+msgid "Read More Texts"
+msgstr "もっと読む"
+
+#: inc/customizer.php:197 inc/customizer.php:997 sections/section-slider.php:7
+#: template-parts/content-search.php:35 template-parts/content.php:71
+msgid "Read More"
+msgstr "もっと見る"
+
+#: inc/customizer.php:186
+msgid "Select Post"
+msgstr "投稿を選択"
+
+#: inc/customizer.php:168
+msgid "Enable Banner Section"
+msgstr "バナー・セクションを有効にする"
+
+#: inc/customizer.php:149
+msgid "Banner Section"
+msgstr "バナー・セクション"
+
+#: inc/customizer.php:141
+msgid "Customize Home Page Settings"
+msgstr "ホームページ設定のカスタマイズ"
+
+#: inc/customizer.php:140
+msgid "Home Page Settings"
+msgstr "ホームページ設定"
+
+#: inc/customizer.php:128
+msgid "Top Menu Label"
+msgstr "トップメニュー・ラベル"
+
+#: inc/customizer.php:110
+msgid "Phone"
+msgstr "電話"
+
+#: inc/customizer.php:92
+msgid "Email"
+msgstr "メール"
+
+#: inc/customizer.php:74
+msgid "Top Header Settings"
+msgstr "トップヘッダー設定"
+
+#: inc/customizer.php:55
+msgid "Default section provided by wordpress customizer."
+msgstr "WordPressカスタマイザ－が提供する既定セクション"
+
+#: inc/customizer.php:54
+msgid "Default Settings"
+msgstr "デフォルト設定"
+
+#: inc/customizer.php:41
+msgid "Choose Category"
+msgstr "カテゴリーを選択"
+
+#: inc/customizer.php:25
+msgid "Choose Page"
+msgstr "ページを選択"
+
+#: inc/customizer.php:18
+msgid "Choose Post"
+msgstr "投稿を選択"
+
+#: header.php:31 inc/customizer.php:120
+msgid "Quick Links"
+msgstr "クイックリンク"
+
+#: functions.php:171
+msgid "Footer Three"
+msgstr "フッター 3"
+
+#: functions.php:161
+msgid "Footer Two"
+msgstr "フッター 2"
+
+#: functions.php:151
+msgid "Footer One"
+msgstr "フッター 1"
+
+#: functions.php:141
+msgid "Right Sidebar"
+msgstr "右サイドバー"
+
+#: functions.php:55
+msgid "Secondary"
+msgstr "セカンダリー"
+
+#: functions.php:54
+msgid "Primary"
+msgstr "メイン"
+
+#: footer.php:45
+msgid "https://wordpress.org/"
+msgstr "https://ja.wordpress.org/"
+
+#: inc/extras.php:131 inc/extras.php:132 inc/extras.php:136 inc/extras.php:140
+msgid "Y"
+msgstr "Y"
+
+#: footer.php:44
+msgid "&copy; Copyright "
+msgstr "&copy; Copyright "
+
+#: comments.php:84
+msgid "Comments are closed."
+msgstr "コメントは停止中です。"
+
+#: comments.php:68
+msgid "Newer Comments"
+msgstr "新しいコメント"
+
+#: comments.php:67
+msgid "Older Comments"
+msgstr "過去のコメント"
+
+#: comments.php:64
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:36
+msgctxt "comments title"
+msgid "%1$s Comment to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Comments to &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo;への%1$s つのコメント"
+
+#. translators: %s: post title
+#: comments.php:32
+msgctxt "comments title"
+msgid "One Comment to &ldquo;%s&rdquo;"
+msgstr " &ldquo;%s&rdquo;へのコメント1つ"
+
+#: archive.php:33 index.php:39 search.php:34
+msgid "Page"
+msgstr "ページ"
+
+#: archive.php:32 index.php:38 search.php:33
+msgid "&gt"
+msgstr "&gt"
+
+#: archive.php:31 index.php:37 search.php:32
+msgid "&lt;"
+msgstr "&lt;"
+
+#: 404.php:21
+msgid "Back to homepage"
+msgstr "ホームページに戻る"
+
+#: 404.php:17
+msgid "We're really sorry! Something went wrong trying to display the page, Please try one of these instead"
+msgstr "ページを表示しようとした際、エラーが発生しました。これらのうち一つをお試しください"
+
+#: 404.php:15
+msgid "The requested page cannot be found"
+msgstr "要求されたページが見つかりません"
+
+#: 404.php:13
+msgid "404!"
+msgstr "404"
+
+#. Author URI of the plugin/theme
+msgid "http://raratheme.com/"
+msgstr "http://raratheme.com/"
+
+#. Author of the plugin/theme
+msgid "Rara Theme"
+msgstr "Rara Theme"
+
+#. Theme URI of the plugin/theme
+msgid "http://raratheme.com/wordpress-themes/education-zone/"
+msgstr "http://raratheme.com/wordpress-themes/education-zone/"

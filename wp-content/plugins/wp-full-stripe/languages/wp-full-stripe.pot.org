@@ -1,0 +1,1978 @@
+# Copyright (C) 2017 Mammothology
+# This file is distributed under the same license as the WP Full Stripe package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Full Stripe 3.9.1\n"
+"Report-Msgid-Bugs-To: https://paymentsplugin.com/support/\n"
+"POT-Creation-Date: 2017-04-19 13:54:27+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.3\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: include/edd/WPFS_EDD_SL_Plugin_Updater.php:189
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: include/edd/WPFS_EDD_SL_Plugin_Updater.php:197
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: include/edd/WPFS_EDD_SL_Plugin_Updater.php:340
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: include/edd/WPFS_EDD_SL_Plugin_Updater.php:340
+msgid "Error"
+msgstr ""
+
+#: include/wp-full-stripe-admin-menu.php:369
+#: pages/fragments/settings_tab_email-receipts.php:31
+msgid "Stripe"
+msgstr ""
+
+#: include/wp-full-stripe-admin-menu.php:374
+#: pages/fragments/create_checkout_form.php:11
+#: pages/fragments/create_payment_form.php:11
+#: pages/fragments/create_subscription_form.php:18
+#: pages/fragments/edit_checkout_form.php:12
+#: pages/fragments/edit_payment_form.php:19
+#: pages/fragments/edit_subscription_form.php:17
+msgid "Appearance"
+msgstr ""
+
+#: include/wp-full-stripe-admin-menu.php:379
+msgid "Email Notifications"
+msgstr ""
+
+#: include/wp-full-stripe-admin-menu.php:384
+msgid "Users"
+msgstr ""
+
+#: include/wp-full-stripe-admin-menu.php:409
+msgid "The selected tab content cannot be displayed: %s"
+msgstr ""
+
+#: include/wp-full-stripe-admin-menu.php:412
+msgid "Invalid tab content."
+msgstr ""
+
+#: include/wp-full-stripe-admin.php:902
+msgid "There was an error creating the recipient: %s"
+msgstr ""
+
+#: include/wp-full-stripe-admin.php:943
+msgid "There was an error creating the recipient: "
+msgstr ""
+
+#: include/wp-full-stripe-admin.php:973
+msgid "There was an error creating the transfer: "
+msgstr ""
+
+#: include/wp-full-stripe-admin.php:1005
+msgid "There was an error updating the subscription plan: "
+msgstr ""
+
+#: include/wp-full-stripe-admin.php:1030
+msgid "There was an error deleting the subscription plan: "
+msgstr ""
+
+#: include/wp-full-stripe-admin.php:1149
+msgid "Please enter a valid email address or leave the field empty"
+msgstr ""
+
+#: include/wp-full-stripe-admin.php:1159 include/wp-full-stripe-admin.php:1161
+msgid "Field value is invalid."
+msgstr ""
+
+#: include/wp-full-stripe-admin.php:1164
+msgid "Required field."
+msgstr ""
+
+#: include/wp-full-stripe-customer.php:80
+msgid "The payment amount is invalid, please only use numbers and a decimal point."
+msgstr ""
+
+#: include/wp-full-stripe-customer.php:122
+#: include/wp-full-stripe-customer.php:359
+#: include/wp-full-stripe-customer.php:576
+msgid "Please enter a valid billing address."
+msgstr ""
+
+#: include/wp-full-stripe-customer.php:134
+#: include/wp-full-stripe-customer.php:141
+#: include/wp-full-stripe-customer.php:371
+#: include/wp-full-stripe-customer.php:378
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: include/wp-full-stripe-customer.php:152
+#: include/wp-full-stripe-customer.php:162
+#: include/wp-full-stripe-customer.php:389
+#: include/wp-full-stripe-customer.php:399
+msgid "Please enter a value for \"%s\"."
+msgstr ""
+
+#: include/wp-full-stripe-customer.php:210
+#: include/wp-full-stripe-customer.php:637
+msgid "Payment Successful!"
+msgstr ""
+
+#: include/wp-full-stripe-customer.php:463
+msgid "Payment Successful. Thanks for subscribing!"
+msgstr ""
+
+#: include/wp-full-stripe-customer.php:701
+msgid "This coupon has expired."
+msgstr ""
+
+#: include/wp-full-stripe-customer.php:704
+msgid "The coupon has been applied successfully."
+msgstr ""
+
+#: include/wp-full-stripe-customer.php:712
+msgid "You have entered an invalid coupon code."
+msgstr ""
+
+#: include/wp-full-stripe-database.php:84
+#: include/wp-full-stripe-database.php:88
+msgid "Migration of fullstripe_payment_forms/customAmount failed!"
+msgstr ""
+
+#: include/wp-full-stripe-database.php:188
+msgid "Cannot insert default form!"
+msgstr ""
+
+#: include/wp-full-stripe-database.php:265
+#: include/wp-full-stripe-database.php:307
+#: include/wp-full-stripe-database.php:350
+#: include/wp-full-stripe-database.php:365
+#: include/wp-full-stripe-database.php:381
+#: include/wp-full-stripe-database.php:427
+msgid "%s: an error occurred during insert!"
+msgstr ""
+
+#: include/wp-full-stripe-database.php:396
+msgid "%s: an error occurred during insert."
+msgstr ""
+
+#: include/wp-full-stripe-database.php:412
+#: include/wp-full-stripe-database.php:443
+#: include/wp-full-stripe-database.php:518
+#: include/wp-full-stripe-database.php:546
+#: include/wp-full-stripe-database.php:560
+#: include/wp-full-stripe-database.php:574
+msgid "%s: an error occurred during update!"
+msgstr ""
+
+#: include/wp-full-stripe-database.php:458
+#: include/wp-full-stripe-database.php:473
+#: include/wp-full-stripe-database.php:488
+#: include/wp-full-stripe-database.php:504
+#: include/wp-full-stripe-database.php:532
+#: include/wp-full-stripe-database.php:589
+msgid "%s: an error occurred during delete!"
+msgstr ""
+
+#: include/wp-full-stripe-main.php:279
+#: pages/fullstripe_subscriptions_page.php:171
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/wp-full-stripe-main.php:281
+#: pages/fullstripe_subscriptions_page.php:169
+msgid "month"
+msgid_plural "months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/wp-full-stripe-main.php:283
+#: pages/fullstripe_subscriptions_page.php:167
+msgid "year"
+msgid_plural "years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/wp-full-stripe-main.php:2806
+msgid "Settings"
+msgstr ""
+
+#: include/wp-full-stripe-main.php:3198
+msgid "Payment receipt"
+msgstr ""
+
+#: include/wp-full-stripe-main.php:3201
+msgid "Subscription receipt"
+msgstr ""
+
+#: include/wp-full-stripe-main.php:3204
+msgid "Subscription ended"
+msgstr ""
+
+#: include/wp-full-stripe-main.php:3231
+#. translators: 1: currency symbol/code, 2: amount, 3: interval in singular
+msgid "Plan is %1$s%2$.2f per %3$s"
+msgstr ""
+
+#: include/wp-full-stripe-main.php:3234
+#. translators: 1: currency symbol/code, 2: amount, 3: interval count > 1, 4:
+#. interval in plural
+msgid "Plan is %1$s%2$.2f per %3$d %4$s"
+msgstr ""
+
+#: include/wp-full-stripe-main.php:3237
+#. translators: 1: currency symbol/count, 2: amount, 3: interval in singular,
+#. 4: coupon percentage/amount
+msgid "Plan is %1$s%2$.2f per %3$s (%4$.2f with coupon)"
+msgstr ""
+
+#: include/wp-full-stripe-main.php:3240
+#. translators: 1: currency symbol/count, 2: amount, 3: interval count > 1, 4:
+#. interval in plural, 5: coupon percentage/amount
+msgid "Plan is %1$s%2$.2f per %3$d %4$s (%5$.2f with coupon)"
+msgstr ""
+
+#: include/wp-full-stripe-main.php:3243
+#. translators: 1: currency symbol/code, 2: amount, 3: interval in singular, 4:
+#. setup fee currency symbol/code, 5: setup fee amount
+msgid "Plan is %1$s%2$.2f per %3$s. SETUP FEE: %4$s%5$.2f"
+msgstr ""
+
+#: include/wp-full-stripe-main.php:3246
+#. translators: 1: currency symbol/code, 2: amount, 3: interval count > 1, 4:
+#. interval in plural, 5: setup fee currency symbol/code, 6: setup fee amount
+msgid "Plan is %1$s%2$.2f per %3$d %4$s. SETUP FEE: %5$s%6$.2f"
+msgstr ""
+
+#: include/wp-full-stripe-main.php:3249
+#. translators: 1: currency symbol/count, 2: amount, 3: interval in singular,
+#. 4: coupon percentage/amount, 5: setup fee currency symbol/code, 6: setup fee
+#. amount
+msgid "Plan is %1$s%2$.2f per %3$s (%4$.2f with coupon). SETUP FEE: %5$s%6$.2f"
+msgstr ""
+
+#: include/wp-full-stripe-main.php:3252
+#. translators: 1: currency symbol/count, 2: amount, 3: interval count > 1, 4:
+#. interval in plural, 5: coupon percentage/amount, 6: setup fee currency
+#. symbol/code, 7: setup fee amount
+msgid "Plan is %1$s%2$.2f per %3$d %4$s (%5$.2f with coupon). SETUP FEE: %6$s%7$.2f"
+msgstr ""
+
+#: include/wp-full-stripe-main.php:3254
+msgid "An internal error occured."
+msgstr ""
+
+#: include/wp-full-stripe-payments.php:122
+#. translators: message for Stripe error code 'invalid_number'
+msgid "Your card number is invalid."
+msgstr ""
+
+#: include/wp-full-stripe-payments.php:125
+#. translators: message for Stripe error code 'invalid_expiry_month'
+msgid "Your card's expiration month is invalid."
+msgstr ""
+
+#: include/wp-full-stripe-payments.php:128
+#. translators: message for Stripe error code 'invalid_expiry_year'
+msgid "Your card's expiration year is invalid."
+msgstr ""
+
+#: include/wp-full-stripe-payments.php:131
+#. translators: message for Stripe error code 'invalid_cvc'
+msgid "Your card's security code is invalid."
+msgstr ""
+
+#: include/wp-full-stripe-payments.php:134
+#. translators: message for Stripe error code 'incorrect_number'
+msgid "Your card number is incorrect."
+msgstr ""
+
+#: include/wp-full-stripe-payments.php:137
+#. translators: message for Stripe error code 'expired_card'
+msgid "Your card has expired."
+msgstr ""
+
+#: include/wp-full-stripe-payments.php:140
+#. translators: message for Stripe error code 'incorrect_cvc'
+msgid "Your card's security code is incorrect."
+msgstr ""
+
+#: include/wp-full-stripe-payments.php:143
+#. translators: message for Stripe error code 'incorrect_zip'
+msgid "Your card's zip code failed validation."
+msgstr ""
+
+#: include/wp-full-stripe-payments.php:146
+#. translators: message for Stripe error code 'card_declined'
+msgid "Your card was declined."
+msgstr ""
+
+#: include/wp-full-stripe-payments.php:149
+#. translators: message for Stripe error code 'missing'
+msgid "There is no card on a customer that is being charged."
+msgstr ""
+
+#: include/wp-full-stripe-payments.php:152
+#. translators: message for Stripe error code 'processing_error'
+msgid "An error occurred while processing your card."
+msgstr ""
+
+#: include/wp-full-stripe-payments.php:261
+msgid "Subscription plan created "
+msgstr ""
+
+#: include/wp-full-stripe-payments.php:266
+msgid "There was an error creating the plan: "
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:93 include/wp-full-stripe-tables.php:176
+msgid "Subscriber"
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:94
+#: pages/fullstripe_subscriptions_page.php:22
+msgid "Subscribers"
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:100
+msgid "No subscriptions found."
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:175 include/wp-full-stripe-tables.php:365
+#: pages/fullstripe_payments_page.php:71 pages/fullstripe_payments_page.php:157
+#: pages/fullstripe_subscriptions_page.php:80
+#: pages/fullstripe_subscriptions_page.php:149
+msgid "Actions"
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:177 include/wp-full-stripe-tables.php:367
+#: pages/fullstripe_payments_page.php:72 pages/fullstripe_payments_page.php:158
+#: pages/fullstripe_subscriptions_page.php:81
+msgid "Name"
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:178 include/wp-full-stripe-tables.php:368
+msgid "E-mail"
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:180 include/wp-full-stripe-tables.php:184
+msgid "Subscription"
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:181
+msgid "Plan"
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:182 include/wp-full-stripe-tables.php:372
+#: pages/fullstripe_subscriptions_page.php:150
+msgid "ID"
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:185 include/wp-full-stripe-tables.php:374
+msgid "Status"
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:186 include/wp-full-stripe-tables.php:376
+msgid "Mode"
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:188
+msgid "Created at"
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:223 include/wp-full-stripe-tables.php:422
+msgid "&lt;Not specified&gt;"
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:237 include/wp-full-stripe-tables.php:434
+#: pages/fullstripe_payments_page.php:36
+#: pages/fullstripe_subscriptions_page.php:45
+msgid "Test"
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:237 include/wp-full-stripe-tables.php:434
+#: pages/fullstripe_payments_page.php:35
+#: pages/fullstripe_subscriptions_page.php:44
+msgid "Live"
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:246
+#: pages/fragments/edit_payment_form_tab_payment.php:102
+#: pages/fullstripe_payments_page.php:98 pages/fullstripe_payments_page.php:184
+#: pages/fullstripe_subscriptions_page.php:113
+#: pages/fullstripe_subscriptions_page.php:181
+msgid "Delete"
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:248
+#: pages/fragments/create_checkout_form.php:262
+#: pages/fragments/create_payment_form.php:312
+#: pages/fragments/create_subscription_form.php:266
+#: pages/fragments/edit_checkout_form.php:262
+#: pages/fragments/edit_payment_form.php:42
+#: pages/fragments/edit_subscription_form.php:184
+#: pages/fullstripe_create_plan_page.php:121
+#: pages/fullstripe_edit_plan_page.php:154
+msgid "Cancel"
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:280 include/wp-full-stripe-tables.php:370
+#: pages/fragments/create_checkout_form.php:10
+#: pages/fragments/create_payment_form.php:10
+#: pages/fragments/create_subscription_form.php:17
+#: pages/fragments/edit_checkout_form.php:11
+#: pages/fragments/edit_payment_form.php:18
+#: pages/fragments/edit_subscription_form.php:16
+msgid "Payment"
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:281 pages/fullstripe_payments_page.php:18
+msgid "Payments"
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:366
+msgid "Customer"
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:371
+#: pages/fragments/create_payment_form.php:98
+#: pages/fragments/edit_payment_form_tab_payment.php:88
+#: pages/fullstripe_payments_page.php:74 pages/fullstripe_payments_page.php:160
+#: pages/fullstripe_subscriptions_page.php:152
+msgid "Amount"
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:375 include/wp-full-stripe-tables.php:433
+msgid "Paid"
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:378
+msgid "Date"
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:433
+msgid "Not Paid"
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:441
+msgid "Delete (local)"
+msgstr ""
+
+#: include/wp-full-stripe-tables.php:472
+msgid "No payments found."
+msgstr ""
+
+#: pages/forms/invalid_plans.php:1
+msgid ""
+"This subscription form has no valid plans defined. Please check the "
+"settings!"
+msgstr ""
+
+#: pages/forms/invalid_shortcode.php:1
+msgid ""
+"This payment form is invalid. Please check the settings and shortcode "
+"attributes!"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:66 pages/fullstripe_payment_form.php:76
+#: pages/fullstripe_subscription_form.php:72
+msgid "Email Address"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:99
+#: pages/forms/payment_form_compact.php:105
+#: pages/fragments/create_checkout_form.php:62
+#: pages/fullstripe_payment_form.php:118 pages/fullstripe_payment_form.php:127
+msgid "Payment Amount"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:130
+#: pages/fullstripe_payment_form.php:153
+msgid "Other"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:141
+#: pages/fullstripe_payment_form.php:165
+#: pages/fullstripe_subscription_form.php:136
+msgid "Billing Address Street"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:145
+#: pages/fullstripe_payment_form.php:172
+#: pages/fullstripe_subscription_form.php:143
+msgid "Billing Address Line 2"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:149
+#: pages/fullstripe_payment_form.php:179
+#: pages/fullstripe_subscription_form.php:150
+msgid "City"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:153
+#: pages/fullstripe_payment_form.php:186
+#: pages/fullstripe_subscription_form.php:157
+msgid "Zip"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:157
+#: pages/fullstripe_payment_form.php:193
+#: pages/fullstripe_subscription_form.php:164
+msgid "State"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:161
+#: pages/fullstripe_payment_form.php:200
+#: pages/fullstripe_subscription_form.php:171
+msgid "Country"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:163
+#: pages/fullstripe_payment_form.php:204
+#: pages/fullstripe_subscription_form.php:175
+msgid "Select country"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:177
+msgid "Credit Cards"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:180
+#: pages/fullstripe_payment_form.php:69
+#: pages/fullstripe_subscription_form.php:65
+msgid "Card Holder's Name"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:184
+#: pages/fullstripe_payment_form.php:220
+#: pages/fullstripe_subscription_form.php:191
+msgid "Card Number"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:188
+#: pages/fullstripe_payment_form.php:238
+#: pages/fullstripe_subscription_form.php:209
+msgid "Card CVV"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:192
+msgid "Month"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:194
+msgid "January"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:195
+msgid "February"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:196
+msgid "March"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:197
+msgid "April"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:198
+msgid "May"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:199
+msgid "June"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:200
+msgid "July"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:201
+msgid "August"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:202
+msgid "September"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:203
+msgid "October"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:204
+msgid "November"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:205
+msgid "December"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:209
+msgid "Year"
+msgstr ""
+
+#: pages/forms/payment_form_compact.php:236
+#: pages/fragments/create_checkout_form.php:263
+#: pages/fragments/create_payment_form.php:313
+#: pages/fragments/create_subscription_form.php:267
+#: pages/fragments/edit_checkout_form.php:263
+#: pages/fragments/edit_payment_form.php:43
+#: pages/fragments/edit_subscription_form.php:185
+#: pages/fragments/settings_tab_appearance.php:48
+#: pages/fragments/settings_tab_email-receipts.php:100
+#: pages/fragments/settings_tab_stripe.php:96
+#: pages/fragments/settings_tab_users.php:36
+#: pages/fullstripe_checkout_form.php:37
+#: pages/fullstripe_create_plan_page.php:122
+#: pages/fullstripe_edit_plan_page.php:155
+#: pages/fullstripe_payment_form.php:251 pages/fullstripe_payment_form.php:260
+#: pages/fullstripe_payment_form.php:267 pages/fullstripe_payments_page.php:26
+#: pages/fullstripe_payments_page.php:61
+#: pages/fullstripe_subscription_form.php:222
+#: pages/fullstripe_subscription_form.php:230
+#: pages/fullstripe_subscriptions_page.php:35
+#: pages/fullstripe_subscriptions_page.php:70
+#: pages/fullstripe_subscriptions_page.php:139
+#: pages/fullstripe_transfers_page.php:102
+#: pages/fullstripe_transfers_page.php:199
+#: pages/fullstripe_transfers_page.php:287
+msgid "Loading..."
+msgstr ""
+
+#: pages/fragments/about_help_and_support.php:10
+msgid ""
+"Check out our <a href=\"%s\" target=\"_blank\">Help section</a> or visit "
+"the <a href=\"%s\" target=\"_blank\">Support page</a> if you have questions."
+msgstr ""
+
+#: pages/fragments/about_help_and_support.php:11
+msgid ""
+"You can subscribe for premium support for FREE by <a href=\"%s\" "
+"target=\"_blank\">adding your email address to our mailing list</a>."
+msgstr ""
+
+#: pages/fragments/about_help_and_support.php:12
+msgid "Subscribe for premium support"
+msgstr ""
+
+#: pages/fragments/about_news.php:14
+msgid "The newsfeed is not available at the moment."
+msgstr ""
+
+#: pages/fragments/about_news.php:15
+msgid "Please check back later."
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:12
+#: pages/fragments/create_payment_form.php:13
+#: pages/fragments/create_subscription_form.php:20
+#: pages/fragments/edit_checkout_form.php:13
+#: pages/fragments/edit_payment_form.php:21
+#: pages/fragments/edit_subscription_form.php:19
+msgid "Actions after payment"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:21
+#: pages/fragments/create_payment_form.php:22
+#: pages/fragments/create_subscription_form.php:29
+#: pages/fragments/edit_checkout_form.php:23
+#: pages/fragments/edit_payment_form_tab_payment.php:12
+#: pages/fragments/edit_subscription_form.php:29
+msgid "Form Type:"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:23
+#: pages/fragments/edit_checkout_form.php:25
+msgid "Popup payment form"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:27
+#: pages/fragments/create_payment_form.php:28
+#: pages/fragments/create_subscription_form.php:35
+#: pages/fragments/edit_checkout_form.php:29
+#: pages/fragments/edit_payment_form_tab_payment.php:20
+#: pages/fragments/edit_subscription_form.php:35
+msgid "Form Name:"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:32
+#: pages/fragments/edit_checkout_form.php:34
+msgid ""
+"This name will be used to identify this form in the shortcode i.e. "
+"[fullstripe_checkout form=\"FormName\"]."
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:37
+#: pages/fragments/create_payment_form.php:38
+#: pages/fragments/edit_checkout_form.php:39
+#: pages/fragments/edit_payment_form_tab_payment.php:30
+#: pages/fullstripe_create_plan_page.php:36
+msgid "Payment Currency: "
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:42
+#: pages/fragments/create_payment_form.php:43
+#: pages/fragments/edit_checkout_form.php:44
+#: pages/fragments/edit_payment_form_tab_payment.php:35
+#: pages/fragments/redirect_to_for_create.php:28
+#: pages/fragments/redirect_to_for_create_checkout.php:28
+#: pages/fragments/redirect_to_for_edit.php:28
+#: pages/fragments/redirect_to_for_edit_checkout.php:28
+#: pages/fullstripe_create_plan_page.php:41
+msgid "Select from the list or start typing"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:67
+msgid ""
+"The amount this form will charge your customer, in cents. i.e, for $10.00 "
+"enter 1000."
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:72
+#: pages/fragments/edit_checkout_form.php:74
+msgid "Use Bitcoin?"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:76
+#: pages/fragments/edit_checkout_form.php:78
+msgid ""
+"In order to use Bitcoin for payments, you have to set the form currency to "
+"USD, and you have to link an US bank account to your Stripe account, then "
+"<a href=\"%s\">enable Bitcoin</a> on your Stripe account."
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:81
+#: pages/fragments/create_checkout_form.php:102
+#: pages/fragments/create_checkout_form.php:209
+#: pages/fragments/create_checkout_form.php:230
+#: pages/fragments/create_checkout_form.php:247
+#: pages/fragments/create_payment_form.php:190
+#: pages/fragments/create_payment_form.php:209
+#: pages/fragments/create_payment_form.php:283
+#: pages/fragments/create_payment_form.php:298
+#: pages/fragments/create_subscription_form.php:49
+#: pages/fragments/create_subscription_form.php:144
+#: pages/fragments/create_subscription_form.php:161
+#: pages/fragments/create_subscription_form.php:236
+#: pages/fragments/create_subscription_form.php:252
+#: pages/fragments/edit_checkout_form.php:83
+#: pages/fragments/edit_checkout_form.php:104
+#: pages/fragments/edit_checkout_form.php:209
+#: pages/fragments/edit_checkout_form.php:230
+#: pages/fragments/edit_checkout_form.php:247
+#: pages/fragments/edit_payment_form_tab_actions_after_payment.php:17
+#: pages/fragments/edit_payment_form_tab_actions_after_payment.php:34
+#: pages/fragments/edit_payment_form_tab_custom_fields.php:17
+#: pages/fragments/edit_payment_form_tab_custom_fields.php:36
+#: pages/fragments/edit_subscription_form.php:50
+#: pages/fragments/settings_tab_email-receipts.php:84
+#: pages/fragments/settings_tab_users.php:25
+msgid "No"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:85
+#: pages/fragments/create_checkout_form.php:106
+#: pages/fragments/create_checkout_form.php:213
+#: pages/fragments/create_checkout_form.php:234
+#: pages/fragments/create_checkout_form.php:251
+#: pages/fragments/create_payment_form.php:194
+#: pages/fragments/create_payment_form.php:213
+#: pages/fragments/create_payment_form.php:286
+#: pages/fragments/create_payment_form.php:301
+#: pages/fragments/create_subscription_form.php:53
+#: pages/fragments/create_subscription_form.php:148
+#: pages/fragments/create_subscription_form.php:165
+#: pages/fragments/create_subscription_form.php:240
+#: pages/fragments/create_subscription_form.php:256
+#: pages/fragments/edit_checkout_form.php:87
+#: pages/fragments/edit_checkout_form.php:108
+#: pages/fragments/edit_checkout_form.php:213
+#: pages/fragments/edit_checkout_form.php:234
+#: pages/fragments/edit_checkout_form.php:251
+#: pages/fragments/edit_payment_form_tab_actions_after_payment.php:21
+#: pages/fragments/edit_payment_form_tab_actions_after_payment.php:38
+#: pages/fragments/edit_payment_form_tab_custom_fields.php:21
+#: pages/fragments/edit_payment_form_tab_custom_fields.php:40
+#: pages/fragments/edit_subscription_form.php:54
+#: pages/fragments/settings_tab_users.php:29
+msgid "Yes"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:87
+#: pages/fragments/edit_checkout_form.php:89
+msgid "Allow to use Bitcoin for payments."
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:93
+#: pages/fragments/edit_checkout_form.php:95
+msgid "Use Alipay?"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:97
+#: pages/fragments/edit_checkout_form.php:99
+msgid ""
+"In order to use AliPay for payments, you have to set the form currency to "
+"USD, and you have to link an US bank account to your Stripe account."
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:108
+#: pages/fragments/edit_checkout_form.php:110
+msgid ""
+"Accept payments from hundreds of millions of new customers using Alipay, "
+"China’s most popular payment method."
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:118
+#: pages/fragments/create_payment_form.php:127
+#: pages/fragments/create_subscription_form.php:101
+#: pages/fragments/edit_checkout_form.php:120
+#: pages/fragments/edit_payment_form_tab_appearance.php:31
+#: pages/fragments/edit_subscription_form.php:138
+msgid "Form Title:"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:123
+#: pages/fragments/edit_checkout_form.php:125
+msgid "Used as the title of the checkout form."
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:128
+#: pages/fragments/edit_checkout_form.php:130
+msgid "Product Description:"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:133
+#: pages/fragments/edit_checkout_form.php:135
+msgid "A short description (one line) about the product sold using this form."
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:138
+#: pages/fragments/edit_checkout_form.php:140
+msgid "Open Form Button Text:"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:143
+#: pages/fragments/edit_checkout_form.php:145
+msgid "The text on the button used to pop open this form."
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:148
+#: pages/fragments/create_payment_form.php:137
+#: pages/fragments/edit_checkout_form.php:150
+#: pages/fragments/edit_payment_form_tab_appearance.php:41
+msgid "Payment Button Text:"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:153
+#: pages/fragments/edit_checkout_form.php:155
+msgid ""
+"The text on the payment button. Use {{amount}} to show the payment amount "
+"on this button."
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:158
+#: pages/fragments/create_payment_form.php:164
+#: pages/fragments/create_subscription_form.php:119
+#: pages/fragments/edit_checkout_form.php:160
+#: pages/fragments/edit_payment_form_tab_appearance.php:68
+#: pages/fragments/edit_subscription_form.php:158
+msgid "Include Billing Address Field?"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:163
+#: pages/fragments/create_checkout_form.php:180
+#: pages/fragments/create_payment_form.php:152
+#: pages/fragments/create_payment_form.php:169
+#: pages/fragments/create_subscription_form.php:124
+#: pages/fragments/edit_checkout_form.php:165
+#: pages/fragments/edit_checkout_form.php:182
+#: pages/fragments/edit_payment_form_tab_appearance.php:56
+#: pages/fragments/edit_payment_form_tab_appearance.php:73
+#: pages/fragments/edit_subscription_form.php:163
+msgid "Hide"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:167
+#: pages/fragments/create_checkout_form.php:184
+#: pages/fragments/create_payment_form.php:156
+#: pages/fragments/create_payment_form.php:173
+#: pages/fragments/create_subscription_form.php:128
+#: pages/fragments/edit_checkout_form.php:169
+#: pages/fragments/edit_checkout_form.php:186
+#: pages/fragments/edit_payment_form_tab_appearance.php:60
+#: pages/fragments/edit_payment_form_tab_appearance.php:77
+#: pages/fragments/edit_subscription_form.php:167
+msgid "Show"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:170
+#: pages/fragments/create_payment_form.php:176
+#: pages/fragments/edit_checkout_form.php:172
+#: pages/fragments/edit_payment_form_tab_appearance.php:80
+msgid "Should this payment form also ask for the customers billing address?"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:175
+#: pages/fragments/edit_checkout_form.php:177
+msgid "Include Remember Me Field?"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:187
+#: pages/fragments/edit_checkout_form.php:189
+msgid ""
+"Show the Stripe Remember Me checkbox, allowing users to save their "
+"information with Stripe for later use."
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:192
+msgid "Image"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:195
+#: pages/fragments/edit_checkout_form.php:197
+msgid "Enter image URL"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:196
+#: pages/fragments/create_checkout_form.php:197
+#: pages/fragments/edit_checkout_form.php:198
+msgid "Upload Image"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:199
+#: pages/fragments/edit_checkout_form.php:199
+msgid ""
+"A square image of your brand or product which is shown on the form. Min "
+"size 128px x 128px."
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:204
+#: pages/fragments/edit_checkout_form.php:204
+msgid "Disable Button Styling?"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:216
+#: pages/fragments/edit_checkout_form.php:216
+msgid ""
+"Disable the styling on the checkout button if you are noticing conflicts "
+"with your theme."
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:225
+#: pages/fragments/create_payment_form.php:279
+#: pages/fragments/create_subscription_form.php:231
+#: pages/fragments/edit_checkout_form.php:225
+#: pages/fragments/edit_payment_form_tab_actions_after_payment.php:12
+msgid "Send Email Receipt?"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:237
+#: pages/fragments/create_payment_form.php:289
+#: pages/fragments/create_subscription_form.php:242
+#: pages/fragments/edit_checkout_form.php:237
+#: pages/fragments/edit_payment_form_tab_actions_after_payment.php:24
+msgid "Send an email receipt on successful payment?"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:242
+#: pages/fragments/create_payment_form.php:294
+#: pages/fragments/create_subscription_form.php:247
+#: pages/fragments/edit_checkout_form.php:242
+#: pages/fragments/edit_payment_form_tab_actions_after_payment.php:29
+msgid "Redirect On Success?"
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:254
+#: pages/fragments/create_payment_form.php:304
+#: pages/fragments/create_subscription_form.php:258
+#: pages/fragments/edit_checkout_form.php:254
+#: pages/fragments/edit_payment_form_tab_actions_after_payment.php:41
+msgid ""
+"When payment is successful you can choose to redirect to another page or "
+"post."
+msgstr ""
+
+#: pages/fragments/create_checkout_form.php:261
+#: pages/fragments/create_payment_form.php:311
+#: pages/fragments/create_subscription_form.php:265
+msgid "Create Form"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:12
+#: pages/fragments/create_subscription_form.php:19
+#: pages/fragments/edit_payment_form.php:20
+#: pages/fragments/edit_subscription_form.php:18
+msgid "Custom Fields"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:24
+#: pages/fragments/edit_payment_form_tab_payment.php:15
+msgid "Inline payment form"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:33
+msgid ""
+"This name will be used to identify this form in the shortcode i.e. "
+"[fullstripe_payment form=\"FormName\"]"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:63
+msgid "Payment Type: "
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:68
+#: pages/fragments/edit_payment_form_tab_payment.php:60
+msgid "Set Amount"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:72
+#: pages/fragments/edit_payment_form_tab_payment.php:63
+msgid "Select Amount from List"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:76
+#: pages/fragments/edit_payment_form_tab_payment.php:67
+msgid "Custom Amount"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:79
+#: pages/fragments/edit_payment_form_tab_payment.php:70
+msgid ""
+"Choose to set a specific amount or a list of amounts for this form, or "
+"allow customers to set custom amounts."
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:84
+#: pages/fragments/edit_checkout_form.php:64
+#: pages/fragments/edit_payment_form_tab_payment.php:75
+#: pages/fullstripe_create_plan_page.php:60
+msgid "Payment Amount:"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:89
+#: pages/fragments/edit_payment_form_tab_payment.php:80
+msgid ""
+"The amount this form will charge your customer, in cents. i.e. for $10.00 "
+"enter 1000."
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:94
+#: pages/fragments/edit_payment_form_tab_payment.php:85
+msgid "Payment Amount Options:"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:97
+#: pages/fragments/edit_payment_form_tab_payment.php:88
+msgid "Add"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:98
+#: pages/fragments/edit_payment_form_tab_payment.php:88
+msgid "Description"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:103
+#: pages/fragments/edit_payment_form_tab_payment.php:114
+msgid ""
+"The amount in cents, i.e. for $10.00 enter 1000. The description will be "
+"displayed in the dropdown for the amount. Use the {amount} placeholder to "
+"include the amount value. You can use drag'n'drop to reorder the payment "
+"amounts."
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:104
+#: pages/fragments/edit_payment_form_tab_payment.php:115
+msgid "Allow Custom Amount to Be Entered?"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:114
+#: pages/fragments/edit_payment_form_tab_appearance.php:12
+msgid "Form Style:"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:118
+#: pages/fragments/edit_payment_form_tab_appearance.php:18
+msgid "Default"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:119
+#: pages/fragments/edit_payment_form_tab_appearance.php:22
+msgid "Compact"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:122
+#: pages/fragments/edit_payment_form_tab_appearance.php:26
+msgid "Choose how you'd like the form to look. (More coming soon!)"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:130
+msgid "Payment form"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:132
+#: pages/fragments/create_subscription_form.php:105
+#: pages/fragments/edit_payment_form_tab_appearance.php:36
+#: pages/fragments/edit_subscription_form.php:143
+msgid "The title of the form."
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:140
+msgid "Make Payment"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:142
+#: pages/fragments/edit_payment_form_tab_appearance.php:46
+msgid "The text on the payment button."
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:147
+#: pages/fragments/edit_payment_form_tab_appearance.php:51
+msgid "Include Amount on Button?"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:159
+#: pages/fragments/edit_payment_form_tab_appearance.php:63
+msgid "For set amount forms, choose to show/hide the amount on the payment button."
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:185
+#: pages/fragments/create_subscription_form.php:139
+#: pages/fragments/edit_payment_form_tab_custom_fields.php:12
+msgid "Include Custom Input Fields?"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:197
+#: pages/fragments/create_subscription_form.php:150
+#: pages/fragments/edit_payment_form_tab_custom_fields.php:24
+msgid ""
+"You can ask for extra information from the customer to be included in the "
+"payment details."
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:204
+#: pages/fragments/create_subscription_form.php:156
+#: pages/fragments/edit_payment_form_tab_custom_fields.php:31
+msgid "Make Custom Input Fields Required?"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:219
+#: pages/fragments/create_subscription_form.php:171
+#: pages/fragments/edit_payment_form_tab_custom_fields.php:46
+msgid "Number of inputs:"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:233
+#: pages/fragments/create_subscription_form.php:185
+#: pages/fragments/edit_payment_form_tab_custom_fields.php:70
+msgid "Custom Input Label 1:"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:238
+#: pages/fragments/create_subscription_form.php:189
+#: pages/fragments/edit_payment_form_tab_custom_fields.php:75
+msgid "The text for the label next to the custom input field."
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:243
+#: pages/fragments/create_subscription_form.php:194
+#: pages/fragments/edit_payment_form_tab_custom_fields.php:80
+msgid "Custom Input Label 2:"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:251
+#: pages/fragments/create_subscription_form.php:202
+#: pages/fragments/edit_payment_form_tab_custom_fields.php:88
+msgid "Custom Input Label 3:"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:259
+#: pages/fragments/create_subscription_form.php:210
+#: pages/fragments/edit_payment_form_tab_custom_fields.php:96
+msgid "Custom Input Label 4:"
+msgstr ""
+
+#: pages/fragments/create_payment_form.php:267
+#: pages/fragments/create_subscription_form.php:218
+#: pages/fragments/edit_payment_form_tab_custom_fields.php:104
+msgid "Custom Input Label 5:"
+msgstr ""
+
+#: pages/fragments/create_subscription_form.php:14
+msgid ""
+"You must have at least one subscription plan created before creating a "
+"subscription form."
+msgstr ""
+
+#: pages/fragments/create_subscription_form.php:31
+#: pages/fragments/edit_subscription_form.php:31
+msgid "Inline subscription form"
+msgstr ""
+
+#: pages/fragments/create_subscription_form.php:39
+#: pages/fragments/edit_subscription_form.php:40
+msgid ""
+"This name will be used to identify this form in the shortcode i.e. "
+"[fullstripe_subscription form=\"FormName\"]."
+msgstr ""
+
+#: pages/fragments/create_subscription_form.php:44
+#: pages/fragments/edit_subscription_form.php:45
+msgid "Include Coupon Input Field?"
+msgstr ""
+
+#: pages/fragments/create_subscription_form.php:55
+#: pages/fragments/edit_subscription_form.php:57
+msgid ""
+"You can allow customers to input coupon codes for discounts. Must create "
+"the coupon in your Stripe account dashboard."
+msgstr ""
+
+#: pages/fragments/create_subscription_form.php:60
+#: pages/fragments/edit_subscription_form.php:62
+msgid "Plans:"
+msgstr ""
+
+#: pages/fragments/create_subscription_form.php:71
+#: pages/fragments/edit_payment_form_tab_payment.php:97
+#: pages/fragments/edit_subscription_form.php:84
+#: pages/fragments/edit_subscription_form.php:107
+msgid "You can reorder this list by using drag'n'drop."
+msgstr ""
+
+#: pages/fragments/create_subscription_form.php:91
+#: pages/fragments/edit_subscription_form.php:128
+msgid ""
+"Which subscription plans can be chosen on this form. The list can be "
+"reordered by using drag'n'drop."
+msgstr ""
+
+#: pages/fragments/create_subscription_form.php:104
+msgid "Subscription form"
+msgstr ""
+
+#: pages/fragments/create_subscription_form.php:110
+#: pages/fragments/edit_subscription_form.php:148
+msgid "Subscribe Button Text:"
+msgstr ""
+
+#: pages/fragments/create_subscription_form.php:114
+#: pages/fragments/edit_subscription_form.php:153
+msgid "The text on the subscribe button."
+msgstr ""
+
+#: pages/fragments/create_subscription_form.php:130
+#: pages/fragments/edit_subscription_form.php:170
+msgid "Should this form also ask for the customers billing address?"
+msgstr ""
+
+#: pages/fragments/edit_checkout_form.php:69
+msgid ""
+"The amount this form will charge your customer, in cents, i.e. for $10.00 "
+"enter 1000."
+msgstr ""
+
+#: pages/fragments/edit_checkout_form.php:194
+msgid "Image:"
+msgstr ""
+
+#: pages/fragments/edit_checkout_form.php:261
+#: pages/fragments/edit_payment_form.php:41
+#: pages/fragments/edit_subscription_form.php:183
+#: pages/fragments/settings_tab_appearance.php:47
+#: pages/fragments/settings_tab_email-receipts.php:99
+#: pages/fragments/settings_tab_stripe.php:95
+#: pages/fragments/settings_tab_users.php:35
+msgid "Save Changes"
+msgstr ""
+
+#: pages/fragments/edit_payment_form_tab_payment.php:25
+msgid ""
+"This name will be used to identify this form in the shortcode i.e. "
+"[fullstripe_payment form=\"FormName\"]."
+msgstr ""
+
+#: pages/fragments/edit_payment_form_tab_payment.php:55
+msgid "Payment Type:"
+msgstr ""
+
+#: pages/fragments/redirect_to_for_create.php:11
+#: pages/fragments/redirect_to_for_create_checkout.php:11
+#: pages/fragments/redirect_to_for_edit.php:11
+#: pages/fragments/redirect_to_for_edit_checkout.php:11
+msgid "Redirect to:"
+msgstr ""
+
+#: pages/fragments/redirect_to_for_create.php:16
+#: pages/fragments/redirect_to_for_create_checkout.php:16
+#: pages/fragments/redirect_to_for_edit.php:16
+#: pages/fragments/redirect_to_for_edit_checkout.php:16
+msgid "Page or Post"
+msgstr ""
+
+#: pages/fragments/redirect_to_for_create.php:20
+#: pages/fragments/redirect_to_for_create_checkout.php:20
+#: pages/fragments/redirect_to_for_edit.php:20
+#: pages/fragments/redirect_to_for_edit_checkout.php:20
+msgid "URL entered manually"
+msgstr ""
+
+#: pages/fragments/redirect_to_for_create.php:40
+#: pages/fragments/redirect_to_for_create_checkout.php:40
+#: pages/fragments/redirect_to_for_edit.php:44
+#: pages/fragments/redirect_to_for_edit_checkout.php:44
+msgid "Allow placeholder tokens on Thank You pages?"
+msgstr ""
+
+#: pages/fragments/redirect_to_for_create.php:45
+#: pages/fragments/redirect_to_for_create_checkout.php:45
+#: pages/fragments/redirect_to_for_edit.php:49
+#: pages/fragments/redirect_to_for_edit_checkout.php:49
+msgid "Enter URL"
+msgstr ""
+
+#: pages/fragments/settings_tab_appearance.php:20
+msgid "Custom Form CSS: "
+msgstr ""
+
+#: pages/fragments/settings_tab_appearance.php:25
+msgid ""
+"Add extra styling to the form. NOTE: if you don't know what this is do not "
+"change it."
+msgstr ""
+
+#: pages/fragments/settings_tab_appearance.php:30
+msgid "Include Default Styles: "
+msgstr ""
+
+#: pages/fragments/settings_tab_appearance.php:35
+msgid "Include"
+msgstr ""
+
+#: pages/fragments/settings_tab_appearance.php:39
+msgid "Exclude"
+msgstr ""
+
+#: pages/fragments/settings_tab_appearance.php:42
+msgid ""
+"Exclude styles if the payment forms do not appear properly. This can "
+"indicate a conflict with your theme."
+msgstr ""
+
+#: pages/fragments/settings_tab_email-receipts.php:22
+msgid "Receipt Email Type: "
+msgstr ""
+
+#: pages/fragments/settings_tab_email-receipts.php:27
+msgid "Plugin"
+msgstr ""
+
+#: pages/fragments/settings_tab_email-receipts.php:34
+msgid ""
+"Choose the type of payment receipt emails. Plugin emails are defined below "
+"and Stripe emails can be setup in your Stripe Dashboard."
+msgstr ""
+
+#: pages/fragments/settings_tab_email-receipts.php:39
+msgid "Plugin Email Templates: "
+msgstr ""
+
+#: pages/fragments/settings_tab_email-receipts.php:56
+msgid "E-mail Subject"
+msgstr ""
+
+#: pages/fragments/settings_tab_email-receipts.php:58
+msgid "E-mail body (HTML)"
+msgstr ""
+
+#: pages/fragments/settings_tab_email-receipts.php:60
+msgid ""
+"%CUSTOMERNAME% and %AMOUNT% are replaced with the name of the customer and "
+"payment amount, respectively."
+msgstr ""
+
+#: pages/fragments/settings_tab_email-receipts.php:61
+msgid "See the <a target=\"_blank\" href=\"%s\">Help page</a> for more options."
+msgstr ""
+
+#: pages/fragments/settings_tab_email-receipts.php:69
+msgid "Email Sender Address:"
+msgstr ""
+
+#: pages/fragments/settings_tab_email-receipts.php:74
+msgid ""
+"The sender address of email receipts. If you leave it empty then the email "
+"address of the blog admin will be used."
+msgstr ""
+
+#: pages/fragments/settings_tab_email-receipts.php:79
+msgid "Send Copy of Emails?: "
+msgstr ""
+
+#: pages/fragments/settings_tab_email-receipts.php:88
+msgid "Yes, to the Website Admin"
+msgstr ""
+
+#: pages/fragments/settings_tab_email-receipts.php:92
+msgid "Yes, to the Email Sender Address"
+msgstr ""
+
+#: pages/fragments/settings_tab_email-receipts.php:94
+msgid "Send copies of payment/subscription receipts to the website admin as well?"
+msgstr ""
+
+#: pages/fragments/settings_tab_stripe.php:16
+msgid "Test secret key here"
+msgstr ""
+
+#: pages/fragments/settings_tab_stripe.php:17
+msgid "Test publishable key here"
+msgstr ""
+
+#: pages/fragments/settings_tab_stripe.php:18
+msgid "Live secret key here"
+msgstr ""
+
+#: pages/fragments/settings_tab_stripe.php:19
+msgid "Live publishable key here"
+msgstr ""
+
+#: pages/fragments/settings_tab_stripe.php:23
+msgid ""
+"The Stripe API keys are required for payments to work. You can find your "
+"keys on your <a href=\"https://dashboard.stripe.com/account/apikeys\" "
+"target=\"_blank\">Stripe Dashboard -> API</a> page"
+msgstr ""
+
+#: pages/fragments/settings_tab_stripe.php:32
+msgid "API mode: "
+msgstr ""
+
+#: pages/fragments/settings_tab_stripe.php:47
+msgid "Stripe Test Secret Key: "
+msgstr ""
+
+#: pages/fragments/settings_tab_stripe.php:55
+msgid "Stripe Test Publishable Key: "
+msgstr ""
+
+#: pages/fragments/settings_tab_stripe.php:63
+msgid "Stripe Live Secret Key: "
+msgstr ""
+
+#: pages/fragments/settings_tab_stripe.php:71
+msgid "Stripe Live Publishable Key: "
+msgstr ""
+
+#: pages/fragments/settings_tab_stripe.php:82
+msgid "Stripe Webhook URL: "
+msgstr ""
+
+#: pages/fragments/settings_tab_stripe.php:89
+msgid ""
+"This URL must be set in Stripe as a webhook endpoint. See the <a "
+"target=\"_blank\" href=\"%s\">\"Setup\" chapter</a> of the \"Help\" page "
+"for more information."
+msgstr ""
+
+#: pages/fragments/settings_tab_users.php:20
+msgid "Lock e-mail address field for logged in users?: "
+msgstr ""
+
+#: pages/fullstripe_about_page.php:6
+msgid "Welcome to WP Full Stripe"
+msgstr ""
+
+#: pages/fullstripe_about_page.php:9
+msgid ""
+"Accept payments and subscriptions from your WordPress website. Created by "
+"<a href=\"%s\">Mammothology</a><div class=\"\"></div>"
+msgstr ""
+
+#: pages/fullstripe_about_page.php:13
+msgid "News"
+msgstr ""
+
+#: pages/fullstripe_about_page.php:14
+msgid "Help & Support"
+msgstr ""
+
+#: pages/fullstripe_about_page.php:15
+msgid "Changelog"
+msgstr ""
+
+#: pages/fullstripe_admin_page.php:6
+msgid "Full Stripe Settings"
+msgstr ""
+
+#: pages/fullstripe_create_form_page.php:18
+msgid "Full Stripe Create Form"
+msgstr ""
+
+#: pages/fullstripe_create_plan_page.php:10
+msgid "Create subscription plan"
+msgstr ""
+
+#: pages/fullstripe_create_plan_page.php:18
+#: pages/fullstripe_edit_plan_page.php:50
+msgid "ID:"
+msgstr ""
+
+#: pages/fullstripe_create_plan_page.php:22
+msgid ""
+"This ID is used to identify this plan when creating a subscription form and "
+"on your Stripe dashboard."
+msgstr ""
+
+#: pages/fullstripe_create_plan_page.php:27
+msgid "Display Name:"
+msgstr ""
+
+#: pages/fullstripe_create_plan_page.php:31
+msgid "The name you wish to be displayed to customers for this plan."
+msgstr ""
+
+#: pages/fullstripe_create_plan_page.php:64
+msgid ""
+"The amount this plan will charge your customer, in cents. i.e. for $10.00 "
+"enter 1000."
+msgstr ""
+
+#: pages/fullstripe_create_plan_page.php:69
+#: pages/fullstripe_edit_plan_page.php:80
+msgid "Setup Fee:"
+msgstr ""
+
+#: pages/fullstripe_create_plan_page.php:73
+#: pages/fullstripe_edit_plan_page.php:84
+msgid ""
+"Amount to charge the customer to setup the subscription (in cents. i.e. for "
+"$10.00 enter 1000). Entering 0 will disable."
+msgstr ""
+
+#: pages/fullstripe_create_plan_page.php:78
+msgid "Payment Interval:"
+msgstr ""
+
+#: pages/fullstripe_create_plan_page.php:82
+msgid "Weekly"
+msgstr ""
+
+#: pages/fullstripe_create_plan_page.php:83
+msgid "Monthly"
+msgstr ""
+
+#: pages/fullstripe_create_plan_page.php:84
+msgid "Yearly"
+msgstr ""
+
+#: pages/fullstripe_create_plan_page.php:86
+msgid "How often the payment amount is charged to the customer."
+msgstr ""
+
+#: pages/fullstripe_create_plan_page.php:91
+msgid "Payment Interval Count:"
+msgstr ""
+
+#: pages/fullstripe_create_plan_page.php:95
+msgid ""
+"You could specify an interval count of 3 and an interval of 'Monthly' for "
+"quarterly billing (every 3 months). Default is 1 for Weekly/Monthly/Yearly."
+msgstr ""
+
+#: pages/fullstripe_create_plan_page.php:101
+msgid "Payment Cancellation Count:"
+msgstr ""
+
+#: pages/fullstripe_create_plan_page.php:105
+msgid ""
+"You could specify the number of charges after which the subscription is "
+"cancelled. Set to 0 to let the subscription run forever."
+msgstr ""
+
+#: pages/fullstripe_create_plan_page.php:111
+msgid "Trial Period Days:"
+msgstr ""
+
+#: pages/fullstripe_create_plan_page.php:115
+msgid ""
+"How many trial days the customer has before being charged. Set to 0 to "
+"disable trial period."
+msgstr ""
+
+#: pages/fullstripe_create_plan_page.php:120
+msgid "Create Plan"
+msgstr ""
+
+#: pages/fullstripe_edit_form_page.php:48
+msgid "Full Stripe Edit Form"
+msgstr ""
+
+#: pages/fullstripe_edit_form_page.php:52
+msgid "Form not found!"
+msgstr ""
+
+#: pages/fullstripe_edit_plan_page.php:37
+msgid "Modify subscription plan"
+msgstr ""
+
+#: pages/fullstripe_edit_plan_page.php:41
+msgid "Plan not found!"
+msgstr ""
+
+#: pages/fullstripe_edit_plan_page.php:58
+msgid "Price:"
+msgstr ""
+
+#: pages/fullstripe_edit_plan_page.php:64
+msgid "%s%0.2f / %s"
+msgstr ""
+
+#: pages/fullstripe_edit_plan_page.php:67
+msgid "%s%0.2f / %d week"
+msgid_plural "%s%0.2f / %d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: pages/fullstripe_edit_plan_page.php:69
+msgid "%s%0.2f / %d month"
+msgid_plural "%s%0.2f / %d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: pages/fullstripe_edit_plan_page.php:71
+msgid "%s%0.2f / %d year"
+msgid_plural "%s%0.2f / %d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: pages/fullstripe_edit_plan_page.php:89
+msgid "Duration:"
+msgstr ""
+
+#: pages/fullstripe_edit_plan_page.php:93
+#: pages/fullstripe_subscriptions_page.php:211
+msgid "Forever"
+msgstr ""
+
+#: pages/fullstripe_edit_plan_page.php:105
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: pages/fullstripe_edit_plan_page.php:107
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: pages/fullstripe_edit_plan_page.php:109
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: pages/fullstripe_edit_plan_page.php:112
+#: pages/fullstripe_subscriptions_page.php:217
+msgid "%d charge"
+msgid_plural "%d charges"
+msgstr[0] ""
+msgstr[1] ""
+
+#: pages/fullstripe_edit_plan_page.php:114
+msgid "%d charge (%s)"
+msgid_plural "%d charges (%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: pages/fullstripe_edit_plan_page.php:128
+msgid "Trial:"
+msgstr ""
+
+#: pages/fullstripe_edit_plan_page.php:131
+msgid "No trial"
+msgstr ""
+
+#: pages/fullstripe_edit_plan_page.php:136
+msgid "Display name:"
+msgstr ""
+
+#: pages/fullstripe_edit_plan_page.php:144
+msgid "Statement descriptor:"
+msgstr ""
+
+#: pages/fullstripe_edit_plan_page.php:153
+msgid "Modify plan"
+msgstr ""
+
+#: pages/fullstripe_payment_form.php:228
+#: pages/fullstripe_subscription_form.php:199
+msgid "Card Expiry Date"
+msgstr ""
+
+#: pages/fullstripe_payments_page.php:13
+msgid "Full Stripe Payments"
+msgstr ""
+
+#: pages/fullstripe_payments_page.php:19
+msgid "Payment Forms"
+msgstr ""
+
+#: pages/fullstripe_payments_page.php:30
+msgid "Customer: "
+msgstr ""
+
+#: pages/fullstripe_payments_page.php:30
+#: pages/fullstripe_subscriptions_page.php:39
+msgid "Enter name, email address, or stripe ID"
+msgstr ""
+
+#: pages/fullstripe_payments_page.php:31
+msgid "Payment: "
+msgstr ""
+
+#: pages/fullstripe_payments_page.php:31
+msgid "Enter charge ID"
+msgstr ""
+
+#: pages/fullstripe_payments_page.php:32
+#: pages/fullstripe_subscriptions_page.php:41
+msgid "Mode: "
+msgstr ""
+
+#: pages/fullstripe_payments_page.php:34
+#: pages/fullstripe_subscriptions_page.php:43
+msgid "All"
+msgstr ""
+
+#: pages/fullstripe_payments_page.php:39
+#: pages/fullstripe_subscriptions_page.php:48
+msgid "Search"
+msgstr ""
+
+#: pages/fullstripe_payments_page.php:39
+#: pages/fullstripe_subscriptions_page.php:48
+msgid "or"
+msgstr ""
+
+#: pages/fullstripe_payments_page.php:40
+#: pages/fullstripe_subscriptions_page.php:49
+msgid "Reset"
+msgstr ""
+
+#: pages/fullstripe_payments_page.php:52
+#: pages/fullstripe_subscriptions_page.php:61
+msgid "Your Inline Forms"
+msgstr ""
+
+#: pages/fullstripe_payments_page.php:59
+#: pages/fullstripe_subscriptions_page.php:68
+msgid "Create Inline Form"
+msgstr ""
+
+#: pages/fullstripe_payments_page.php:65
+msgid ""
+"You have created no inline payment forms yet. Use the 'Create Inline Form' "
+"button to get started."
+msgstr ""
+
+#: pages/fullstripe_payments_page.php:73
+#: pages/fullstripe_subscriptions_page.php:82
+msgid "Title"
+msgstr ""
+
+#: pages/fullstripe_payments_page.php:86 pages/fullstripe_payments_page.php:172
+#: pages/fullstripe_subscriptions_page.php:101
+msgid "Shortcode"
+msgstr ""
+
+#: pages/fullstripe_payments_page.php:96 pages/fullstripe_payments_page.php:182
+#: pages/fullstripe_subscriptions_page.php:111
+#: pages/fullstripe_subscriptions_page.php:179
+msgid "Edit"
+msgstr ""
+
+#: pages/fullstripe_payments_page.php:127
+msgid "Custom"
+msgstr ""
+
+#: pages/fullstripe_payments_page.php:129
+msgid "Unknown"
+msgstr ""
+
+#: pages/fullstripe_payments_page.php:139
+msgid "Your Popup Forms"
+msgstr ""
+
+#: pages/fullstripe_payments_page.php:146
+msgid "Create Popup Form"
+msgstr ""
+
+#: pages/fullstripe_payments_page.php:151
+msgid ""
+"You have created no popup forms yet. Use the 'Create Popup Form' button to "
+"get started."
+msgstr ""
+
+#: pages/fullstripe_payments_page.php:159
+msgid "Product"
+msgstr ""
+
+#: pages/fullstripe_subscription_form.php:110
+msgid "Subscription Plan"
+msgstr ""
+
+#: pages/fullstripe_subscription_form.php:217
+msgid "Coupon Code"
+msgstr ""
+
+#: pages/fullstripe_subscription_form.php:221
+msgid "Apply"
+msgstr ""
+
+#: pages/fullstripe_subscriptions_page.php:18
+msgid "Full Stripe Subscriptions"
+msgstr ""
+
+#: pages/fullstripe_subscriptions_page.php:25
+msgid "Subscription Forms"
+msgstr ""
+
+#: pages/fullstripe_subscriptions_page.php:28
+msgid "Subscription Plans"
+msgstr ""
+
+#: pages/fullstripe_subscriptions_page.php:39
+msgid "Subscriber: "
+msgstr ""
+
+#: pages/fullstripe_subscriptions_page.php:40
+msgid "Subscription: "
+msgstr ""
+
+#: pages/fullstripe_subscriptions_page.php:40
+msgid "Enter subscription ID"
+msgstr ""
+
+#: pages/fullstripe_subscriptions_page.php:74
+msgid ""
+"No inline subscription forms created. Use the 'Create Inline Form' button "
+"to get started."
+msgstr ""
+
+#: pages/fullstripe_subscriptions_page.php:83
+msgid "Plan IDs"
+msgstr ""
+
+#: pages/fullstripe_subscriptions_page.php:131
+msgid "Your Subscription Plans"
+msgstr ""
+
+#: pages/fullstripe_subscriptions_page.php:137
+msgid "Create Subscription Plan"
+msgstr ""
+
+#: pages/fullstripe_subscriptions_page.php:143
+msgid ""
+"You have no subscription plans created yet. Use the Subscription Plans tab "
+"to get started"
+msgstr ""
+
+#: pages/fullstripe_subscriptions_page.php:151
+msgid "Display Name"
+msgstr ""
+
+#: pages/fullstripe_subscriptions_page.php:153
+msgid "Setup Fee"
+msgstr ""
+
+#: pages/fullstripe_subscriptions_page.php:154
+msgid "Trial"
+msgstr ""
+
+#: pages/fullstripe_subscriptions_page.php:155
+msgid "Duration"
+msgstr ""
+
+#: pages/fullstripe_subscriptions_page.php:165
+msgid "No interval"
+msgstr ""
+
+#: pages/fullstripe_subscriptions_page.php:199
+msgid "No setup fee"
+msgstr ""
+
+#: pages/fullstripe_subscriptions_page.php:205
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: pages/fullstripe_subscriptions_page.php:207
+msgid "No Trial"
+msgstr ""
+
+#: pages/fullstripe_transfers_page.php:7
+msgid "Full Stripe Transfers"
+msgstr ""
+
+#: wp-full-stripe.php:35
+msgid ""
+"The minimum PHP version for running WP Full Stripe is %s but %s is "
+"found.<br/><br/>Please press the 'Back' browser button, upgrade PHP, and "
+"activate the plugin again."
+msgstr ""
+
+#: wp-full-stripe.php:38
+msgid ""
+"The minimum WordPress version for running WP Full Stripe is %s but %s is "
+"found.<br/><br/>Please press the 'Back' browser button, upgrade Wordpress, "
+"and activate the plugin again."
+msgstr ""
+
+#: wp-full-stripe.php:41 wp-full-stripe.php:44
+msgid ""
+"WP Full Stripe cannot find a required PHP extension called "
+"'%s'.<br/><br/>Please press the 'Back' browser button, install/enable '%s' "
+"for PHP, and activate the plugin again."
+msgstr ""
+
+#: wp-full-stripe.php:53
+msgid ""
+"Another plugin has loaded an incompatible Stripe API client. Deactivate all "
+"other Stripe plugins, and try to activate Full Stripe again."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Full Stripe"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://paymentsplugin.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Complete Stripe payments integration for Wordpress"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Mammothology"
+msgstr ""

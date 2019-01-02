@@ -1,0 +1,162 @@
+<?php
+/**** イベントマネージャー関連の追加項目 ****/
+
+/* レッスン詳細ページに担当講師名を追加 */
+function em_event_output_single_filter($arg1,$arg2){
+	global $wpdb;
+	if(is_numeric($arg2->owner)){
+		$sql = "select display_name from wa_users where id = ".$arg2->owner;
+		$results = $wpdb->get_results($sql);
+		$arg1 = str_replace("#_OWNER",$results[0]->display_name,$arg1);
+	}
+	$lv_n = get_post_meta($arg2->ID,'level', true);
+	$lv = $lv_n ? str_repeat("★",$lv_n) . str_repeat("☆",5-$lv_n) : "設定なし";
+	$arg1 = str_replace("#_LEVEL",$lv,$arg1);
+	
+	return $arg1;
+}
+add_filter("em_event_output_single","em_event_output_single_filter",10,2);
+
+
+
+/* 難易度のカスタムフィールドを追加 */
+add_action('admin_menu', 'add_about_field');
+function add_about_field() {
+  add_meta_box( 'level','難易度', 'create_form_level', 'event', 'normal' );
+}
+
+function create_form_level(){
+	global $post;
+	for($i=1;$i<=5;$i++){
+		$opt .= sprintf('<option value="%d" %s>%s</option>',
+			$i,
+			( strcmp($i, get_post_meta($post->ID,'level', true)) == 0 ) ? 'selected' : "",
+			str_repeat("★",$i) . str_repeat("☆",5-$i));
+	}
+	echo sprintf('<select name="level" style="width:%s;">%s</select>',"100%",$opt);
+
+}
+add_action('save_post_event', 'save_opt_field');
+
+function save_opt_field($post_id){
+  $my_fields = ['level'];
+  foreach($my_fields as $my_field){
+    if(isset($_POST[$my_field])){
+      $value=$_POST[$my_field];
+    }else{
+      $value='';
+    }
+    if( strcmp($value, get_post_meta($post_id, $my_field, true)) != 0 ){
+      update_post_meta($post_id, $my_field, $value);
+    }elseif($value == ""){
+      delete_post_meta($post_id, $my_field, get_post_meta($post_id, $my_field, true));
+    }
+  }
+}
+
+/* 独自のプレースホルダーを作成 */
+function my_em_custom_placeholders($replace, $EM_Event, $result){
+	switch( $result ){
+		case '#_CATEGORYC':
+			$arr = array();
+			foreach($EM_Event->get_categories() as $EM_Category){
+				$arr[] = $EM_Category->slug . ",";
+			}
+			$replace = implode(",",$arr);
+		break;
+		case '#_TAGC':
+			$arr = array();
+			$tags = get_the_terms($EM_Event->post_id, EM_TAXONOMY_TAG);
+			if($tags){
+				foreach($tags as $tag){ 
+					$arr[] = $tag->slug;
+				}
+			}
+			$replace = implode(",",$arr);
+		break;
+		case '#_LEVELC':
+			$replace = $EM_Event->attributes["level"];
+		break;
+	}
+
+	return $replace;
+}
+add_filter('em_event_output_placeholder','my_em_custom_placeholders',1,3);
+
+/* カレンダーに使用する検索をショートコードで追加 */
+function onopod_search_func(){
+	$t = '<label for="%s" style="font-weight:normal;display:inline;">
+		<input type="%s" name="%s" value="%s" id="%s" %s>%s</label>&nbsp;';
+	$n = "none";
+	/* カテゴリー */
+	$ca = sprintf($t,$n,"radio","category",$n,$n,"checked","選択なし");
+	foreach(get_terms(EM_TAXONOMY_CATEGORY,array('orderby'=>'slug')) as $cat){
+		$ca .= sprintf($t,$cat->slug,"radio","category",$cat->slug,$cat->slug,"",$cat->name);
+	}
+	/* タグ */
+	foreach(get_terms(EM_TAXONOMY_TAG) as $tag){
+		$tg .= sprintf($t,$tag->slug,"checkbox","tag",$tag->slug,$tag->slug,"",$tag->name);
+	}
+	
+	/* レベル */
+	for($i=1;$i<=5;$i++){
+		$l .= sprintf('<option value="%d">%s</option>',$i,str_repeat("★",$i).str_repeat("☆",5-$i));
+	}
+	$lv = sprintf('<select name="level"><option value="none">未選択</option>%s</select>',$l);
+
+	$str =<<<EOD
+<table id="o_search">
+<tr><th width="10%%">コース：</th><td>%s</td></tr>
+<tr><th>特徴：</th><td>%s</td></tr>
+<tr><th>難易度：</th><td>%s</td></tr>
+</table>
+<script>
+jQuery(function($){
+	$("input[name=category],input[name=tag]").click(function(){
+		flg = 0;
+		$(".em-calendar li").css("background-color","#ffff00");
+		$("#o_search input[type=radio]:checked,#o_search input[type=checkbox]:checked").each(function(){
+			if($(this).val()!="none"){
+				str = "[" + $(this).attr("name") + "*='" + $(this).val() + "']";
+				$(".em-calendar li").not(str).css("background-color","");
+				flg = 1;
+			}
+		});
+		$("#o_search option:selected").each(function(){
+			if($(this).val()!="none"){
+				str = "[level=" + $(this).val() + "]";
+				$(".em-calendar li").not(str).css("background-color","");
+				flg = 1;
+			}
+		});
+		if(flg==0){
+			$(".em-calendar li").css("background-color","");
+		}
+	});
+	$("select[name=level]").change(function(){
+		flg = 0;
+		$(".em-calendar li").css("background-color","#ffff00");
+		$("#o_search input[type=radio]:checked,#o_search input[type=checkbox]:checked").each(function(){
+			if($(this).val()!="none"){
+				str = "[" + $(this).attr("name") + "*='" + $(this).val() + "']";
+				$(".em-calendar li").not(str).css("background-color","");
+				flg = 1;
+			}
+		});
+		$("#o_search option:selected").each(function(){
+			if($(this).val()!="none"){
+				str = "[level=" + $(this).val() + "]";
+				$(".em-calendar li").not(str).css("background-color","");
+				flg = 1;
+			}
+		});
+		if(flg==0){
+			$(".em-calendar li").css("background-color","");
+		}
+	});
+});
+</script>
+EOD;
+	return sprintf($str,$ca,$tg,$lv);
+}
+add_shortcode('onopod_search','onopod_search_func');
